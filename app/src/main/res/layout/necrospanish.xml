@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum = "1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="40dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Fascitis Necrotizante"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Una infección causada por bacteria que destruye piel, grasa y tejidos cubriendo los músculos en muy poco tiempo. Es muy rara pero muy seria y el 25% de los infectados mueren."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Symptoms:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="fatiga, debilidad, fiebre con escalofríos y sudorosa, nausea, vomito, mareos, disminución de la orina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Common Treatments:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Fuertes antibióticos aplicados directamente por las venas, en algunos caso se tendrá que amputar las áreas infectadas para prevenir el que se propague la infección"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="40dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ofloxacin"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="This is used to treat bacterial infections that cause bronchitis, chlamydia, gonorrhea, skin and urinary tract infections."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/Space1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="30dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Side effects:"
+            android:textStyle="normal|bold" />
+        <TextView
+            android:text="Diarrhea, dizziness, sudden pain, seizures and fever."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+    </TableLayout>
+</ScrollView>
