@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum = "1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="40dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Clamidia"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text=" La clamidia se trasmite por el sexo vaginal y anal. Raramente se trasmite durante el sexo oral o al tocarse los ojos con la mano. También se puede transmitir de la mujer a su feto durante el parto. La clamidia no se trasmite a través de un contacto casual y normalmente no hay síntomas. Las personas, en su mayoría mujeres, no están conscientes de tener la infección."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Symptoms:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Los síntomas para las mujeres podrían incluir: dolor abdominal, flujo vaginal anormal, sangrado entre periodos menstruales, fiebre baja, coito doloroso, dolor o sensación de ardor al orinar, inflamación dentro de la vagina o alrededor del ano, una urgencia de orinar más de lo normal, sangrado vaginal después del coito y/o una secreción amarillenta del cuello uterino que podría tener un olor fuerte. Cuando los hombres tienen síntomas, podrían sentir dolor o ardor al ori]nar, tener pus o un flujo acuoso o lechoso del pene, testículos inflamados o sensibles, y/o inflamación alrededor del ano. En mujeres y hombres, la clamidia puede causar que el ano tenga comezón o sangre. También puede resultar en un flujo y diarrea. Si la clamidia infecta  los ojos, podría causar enrojecimiento, comezón, y secreción. Si la clamidia infecta la garganta, podría causar dolor de garganta. Los síntomas de la clamidia podrían aparecer solo por la mañana y podrían ser leves, especialmente en los hombres. Si Ud. o su pareja tiene cualquier síntoma enumerado anteriormente, consulte a un profesional de salud. Esto es especialmente importante si está embarazada."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Common Treatments:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Se trata con antibióticos."
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+    </TableLayout>
+</ScrollView>
