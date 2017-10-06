@@ -22,8 +22,8 @@ public class LANGUAGES extends AppCompatActivity implements View.OnClickListener
         Button sizes = (Button) findViewById(R.id.espanol);
         sizes.setOnClickListener(this); //Illnesses
 
-        //Button languages =(Button) findViewById(R.id.hmong);
-        //languages.setOnClickListener(this);
+        Button languages =(Button) findViewById(R.id.hmong);
+        languages.setOnClickListener(this);
 }
     public void onClick(View v){
         switch(v.getId()){
@@ -35,10 +35,10 @@ public class LANGUAGES extends AppCompatActivity implements View.OnClickListener
                 Intent intent2 = new Intent(LANGUAGES.this, spanishHomePage.class);
                 startActivity(intent2);
                 break;
-          //  case R.id.hmong:
-            //    Intent intent3 = new Intent(LANGUAGES.this, hmongHomePage.class);
-              //  startActivity(intent3);
-                //break;
+            case R.id.hmong:
+                Intent intent3 = new Intent(LANGUAGES.this, hmongHomePage.class);
+                startActivity(intent3);
+                break;
         }
     }
 }

@@ -39,9 +39,6 @@ public class commonIllnesses extends AppCompatActivity implements View.OnClickLi
         Button throat = (Button) findViewById(R.id.throat);
         throat.setOnClickListener(this);
 
-        Button acne = (Button) findViewById(R.id.acne);
-        acne.setOnClickListener(this);
-
         Button uti = (Button) findViewById(R.id.uti);
         uti.setOnClickListener(this);
 
@@ -98,10 +95,6 @@ public class commonIllnesses extends AppCompatActivity implements View.OnClickLi
             case R.id.throat:
                 Intent intent8 = new Intent(commonIllnesses.this, throat.class);
                 startActivity(intent8);
-                break;
-            case R.id.acne:
-                Intent intent9 = new Intent(commonIllnesses.this, acne.class);
-                startActivity(intent9);
                 break;
 
             case R.id.uti:

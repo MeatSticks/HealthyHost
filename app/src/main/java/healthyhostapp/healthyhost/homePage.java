@@ -1,7 +1,6 @@
 package healthyhostapp.healthyhost;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,10 +29,8 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
         Button button5 =(Button) findViewById(R.id.button5);
         button5.setOnClickListener(this);
 
-        Button button6 =(Button) findViewById(R.id.button6);
+        Button button6 = (Button) findViewById(R.id.button6);
         button6.setOnClickListener(this);
-
-
     }
     public void onClick(View v){
         switch(v.getId()){
@@ -62,10 +59,5 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
 
 
         }
-    }
-
-    public void healthHouse (View view){
-        Intent openHH = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.healthyhousemerced.org/"));
-        startActivity(openHH);
     }
 }

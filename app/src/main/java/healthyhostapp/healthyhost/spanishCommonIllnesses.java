@@ -24,24 +24,35 @@ public class spanishCommonIllnesses extends AppCompatActivity implements View.On
         Button spanimpetigo = (Button) findViewById(R.id.spanImpetigo);
         spanimpetigo.setOnClickListener(this);
 
-        Button spanvalley = (Button) findViewById(R.id.valleyspanish);
+        Button spanvalley = (Button) findViewById(R.id.spanValleyFever);
         spanvalley.setOnClickListener(this);
 
-        Button spannecro = (Button) findViewById(R.id.necrospanish);
+        Button spannecro = (Button) findViewById(R.id.spannecro);
         spannecro.setOnClickListener(this);
 
-        Button spanishrsv = (Button) findViewById(R.id.spanishrsv);
-        spanishrsv.setOnClickListener(this);
+        Button spanrsv = (Button) findViewById(R.id.spanrsv);
+        spanrsv.setOnClickListener(this);
 
-        Button spanishclam = (Button) findViewById(R.id.spanishclam);
-        spanishclam.setOnClickListener(this);
+        Button spanthroat = (Button) findViewById(R.id.spanthroat);
+        spanthroat.setOnClickListener(this);
 
-        Button spanishuti = (Button) findViewById(R.id.spanishuti);
-        spanishuti.setOnClickListener(this);
+        Button spanuti = (Button) findViewById(R.id.spanuti);
+        spanuti.setOnClickListener(this);
 
-        Button spanishmastitis = (Button) findViewById(R.id.spanishmastitis);
-        spanishmastitis.setOnClickListener(this);
+        Button spanclap = (Button) findViewById(R.id.spanclap);
+        spanclap.setOnClickListener(this);
 
+        Button spanear = (Button) findViewById(R.id.spanear);
+        spanear.setOnClickListener(this);
+
+        Button spanlyme = (Button) findViewById(R.id.spanlyme);
+        spanlyme.setOnClickListener(this);
+
+        Button spanmastitis = (Button) findViewById(R.id.spanmastitis);
+        spanmastitis.setOnClickListener(this);
+
+        Button spanpylori = (Button) findViewById(R.id.spanpylori);
+        spanpylori.setOnClickListener(this);
 
     }
 
@@ -60,31 +71,51 @@ public class spanishCommonIllnesses extends AppCompatActivity implements View.On
                 Intent spanImp = new Intent(spanishCommonIllnesses.this, spanimpetigo.class);
                 startActivity(spanImp);
                 break;
-            case R.id.valleyspanish:
-                Intent spanVal = new Intent(spanishCommonIllnesses.this, valleyspanish.class);
-                startActivity(spanVal);
+            case R.id.spanValleyFever:
+                Intent spanvalley = new Intent(spanishCommonIllnesses.this, spanvalley.class);
+                startActivity(spanvalley);
                 break;
-            case R.id.necrospanish:
-                Intent spanNec = new Intent(spanishCommonIllnesses.this, necrospanish.class);
-                startActivity(spanNec);
+            case R.id.spannecro:
+                Intent spannecro = new Intent(spanishCommonIllnesses.this, spannecro.class);
+                startActivity(spannecro);
+                break;
+            case R.id.spanrsv:
+                Intent spanrsv = new Intent(spanishCommonIllnesses.this, spanrsv.class);
+                startActivity(spanrsv);
+                break;
+            case R.id.spanthroat:
+                Intent spanthroat = new Intent(spanishCommonIllnesses.this, spanthroat.class);
+                startActivity(spanthroat);
                 break;
 
-            case R.id.spanishrsv:
-                Intent spanishrsv = new Intent(spanishCommonIllnesses.this, spanishrsv.class);
-                startActivity(spanishrsv);
+            case R.id.spanuti:
+                Intent spanuti = new Intent(spanishCommonIllnesses.this, spanuti.class);
+                startActivity(spanuti);
                 break;
 
-            case R.id.spanishclam:
-                Intent spanishclam = new Intent(spanishCommonIllnesses.this, spanishclam.class);
-                startActivity(spanishclam);
+            case R.id.spanclap:
+                Intent spanclap = new Intent(spanishCommonIllnesses.this, spanclap.class);
+                startActivity(spanclap);
                 break;
-            case R.id.spanishuti:
-                Intent spanishuti = new Intent(spanishCommonIllnesses.this, spanishuti.class);
-                startActivity(spanishuti);
+
+            case R.id.spanear:
+                Intent spanear = new Intent(spanishCommonIllnesses.this, spanear.class);
+                startActivity(spanear);
                 break;
-            case R.id.spanishmastitis:
-                Intent spanishmastitis = new Intent(spanishCommonIllnesses.this, spanishmastitis.class);
-                startActivity(spanishmastitis);
+
+            case R.id.spanlyme:
+                Intent spanlyme = new Intent(spanishCommonIllnesses.this, spanlyme.class);
+                startActivity(spanlyme);
+                break;
+
+            case R.id.spanmastitis:
+                Intent spanmastitis = new Intent(spanishCommonIllnesses.this, spanmastitis.class);
+                startActivity(spanmastitis);
+                break;
+
+            case R.id.spanpylori:
+                Intent spanpylori = new Intent(spanishCommonIllnesses.this, spanpylori.class);
+                startActivity(spanpylori);
                 break;
         }
     }

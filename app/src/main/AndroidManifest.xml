@@ -235,14 +235,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".acne">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
         <activity android:name=".uti">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -355,6 +347,14 @@
         </activity>
 
         <activity android:name=".spanimpetigo">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".spanvalley">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -362,7 +362,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishCommonQuestions">
+        <activity android:name=".spannecro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -370,7 +370,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".valleyspanish">
+        <activity android:name=".spanrsv">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -378,7 +378,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".necrospanish">
+        <activity android:name=".spanthroat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -386,7 +386,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishrsv">
+        <activity android:name=".spanuti">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -394,7 +394,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishclam">
+        <activity android:name=".spanclap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -402,7 +402,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishuti">
+        <activity android:name=".spanear">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -410,7 +410,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishmastitis">
+        <activity android:name=".spanlyme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -418,7 +418,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishclinic">
+        <activity android:name=".spanmastitis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -426,7 +426,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishsettings">
+        <activity android:name=".spanmastitis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -434,7 +434,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishlevaquin">
+        <activity android:name=".spanpylori">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -442,7 +442,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishpoxycycline">
+        <activity android:name=".spanlevaquin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -450,7 +450,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishamoxcillin">
+        <activity android:name=".spandoxy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -458,7 +458,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishazithromycin">
+        <activity android:name=".spanamoxcillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -466,7 +466,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishdo">
+        <activity android:name=".spanazythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -474,7 +474,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishdont">
+        <activity android:name=".spanmetronidazole">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -482,16 +482,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".spanishdos_donts">
+        <activity android:name=".spanerythomycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
-
-
     </application>
 </manifest>

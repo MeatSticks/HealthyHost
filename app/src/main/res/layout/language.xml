@@ -36,8 +36,17 @@
             android:textStyle="bold"
             android:textSize="20sp"/>
 
-       <!--The sizes button has been removed just so that we dont have to make it an immediate concern right now as of the moment-->
-
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Background"
+            android:layout_weight="0.20"
+            android:id="@+id/backgroundinfo"
+            android:color="#66FF0000"
+            android:alpha="0.80"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
 
         <Button
             android:layout_marginTop="10dp"

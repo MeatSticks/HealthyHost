@@ -10,55 +10,62 @@ import android.widget.Button;
  * Created by Leo Alonso Cabrera on 4/4/2017.
  */
 
-public class spanishCommonAntibiotics extends AppCompatActivity implements View.OnClickListener{
+public class spanishCommonAntibiotics extends AppCompatActivity implements View.OnClickListener  {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanishcommonantibiotics);
 
-        Button spanishlevaquin = (Button) findViewById(R.id.spanishlevaquin);
-        spanishlevaquin.setOnClickListener(this); //this is for Antibiotics
+        Button spanlevaquin = (Button) findViewById(R.id.spanlevaquin);
+        spanlevaquin.setOnClickListener(this);
 
-        Button spanishpoxycycline = (Button) findViewById(R.id.spanishpoxycycline);
-        spanishpoxycycline.setOnClickListener(this); //this is for Antibiotics
+        Button spandoxy = (Button) findViewById(R.id.spandoxy);
+        spandoxy.setOnClickListener(this);
 
-        Button spanishamoxcillin = (Button) findViewById(R.id.spanishamoxcillin);
-        spanishamoxcillin.setOnClickListener(this);
+        Button spanamoxcillin = (Button) findViewById(R.id.spanamoxcillin);
+        spanamoxcillin.setOnClickListener(this);
 
-        Button spanishazythromycin = (Button) findViewById(R.id.spanishazithromycin);
-        spanishazythromycin.setOnClickListener(this);
+        Button spanazythromycin = (Button) findViewById(R.id.spanazithromycin);
+        spanazythromycin.setOnClickListener(this);
 
-        Button spanishdos_donts = (Button) findViewById(R.id.spanishdodont);
-        spanishdos_donts.setOnClickListener(this);
+        Button spanmetronidazole = (Button) findViewById(R.id.spanmetronidazole);
+        spanmetronidazole.setOnClickListener(this);
 
+        Button spanerythomycin = (Button) findViewById(R.id.spanerythromycin);
+        spanerythomycin.setOnClickListener(this);
     }
+
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.spanishlevaquin:
-                Intent intent = new Intent(spanishCommonAntibiotics.this, spanishlevaquin.class);
+            case R.id.spanlevaquin:
+                Intent intent = new Intent(spanishCommonAntibiotics.this, spanlevaquin.class);
                 startActivity(intent);
                 break;
 
-            case R.id.spanishpoxycycline:
-                Intent intent1 = new Intent(spanishCommonAntibiotics.this, spanishpoxycycline.class);
+            case R.id.spandoxy:
+                Intent intent1 = new Intent(spanishCommonAntibiotics.this, spandoxy.class);
                 startActivity(intent1);
                 break;
 
-            case R.id.spanishamoxcillin:
-                Intent intent2 = new Intent(spanishCommonAntibiotics.this, spanishamoxcillin.class);
+            case R.id.spanamoxcillin:
+                Intent intent2 = new Intent(spanishCommonAntibiotics.this, spanamoxcillin.class);
                 startActivity(intent2);
                 break;
 
-            case R.id.spanishazithromycin:
-                Intent intent3 = new Intent(spanishCommonAntibiotics.this, spanishazithromycin.class);
+            case R.id.spanazithromycin:
+                Intent intent3 = new Intent(spanishCommonAntibiotics.this, spanazythromycin.class);
                 startActivity(intent3);
                 break;
 
-            case R.id.spanishdodont:
-                Intent intent4 = new Intent(spanishCommonAntibiotics.this, spanishdos_donts.class);
+            case R.id.spanmetronidazole:
+                Intent intent4 = new Intent(spanishCommonAntibiotics.this, spanmetronidazole.class);
                 startActivity(intent4);
                 break;
 
-
+            case R.id.spanerythromycin:
+                Intent intent5 = new Intent(spanishCommonAntibiotics.this, spanerythomycin.class);
+                startActivity(intent5);
+                break;
 
         }
     }

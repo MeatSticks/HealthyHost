@@ -2,26 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
-        android:paddingTop="30dp"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="This page is meant for you to learn how to take care of your medicines. Select one of the two following options to learn more about drug care."
-        android:textSize="30sp"
+        android:layout_marginBottom="12dp"
+        android:alpha="0.80"
         android:background="#FFFFFF"
+        android:color="#66FF0000"
+        android:paddingTop="30dp"
+        android:text="This page is meant for you to learn how to take care of your medicines. Select one of the two following options to learn more about drug care."
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:color="#66FF0000"
-        android:alpha="0.80"
-        android:textStyle="bold"
-        android:layout_marginBottom="12dp"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="DON'T"
+        android:text="Improper Usage"
         android:layout_weight="0.20"
         android:id="@+id/dos"
         android:background="#FF9898"
@@ -34,7 +36,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="DO"
+        android:text="Proper Usage"
         android:layout_weight="0.20"
         android:id="@+id/dont"
         android:background="#7FBF7F"

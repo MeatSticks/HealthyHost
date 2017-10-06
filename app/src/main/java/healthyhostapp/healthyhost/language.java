@@ -19,8 +19,8 @@ public class language extends AppCompatActivity implements View.OnClickListener{
         Button resources = (Button) findViewById(R.id.resources);
         resources.setOnClickListener(this); //this is for Antibiotics
 
-        //Button sizes = (Button) findViewById(R.id.sizes);
-        //sizes.setOnClickListener(this); //Illnesses
+        Button backgroundinfo = (Button) findViewById(R.id.backgroundinfo);
+        backgroundinfo.setOnClickListener(this); //Illnesses
 
         Button languages =(Button) findViewById(R.id.languages);
         languages.setOnClickListener(this);
@@ -32,10 +32,10 @@ public class language extends AppCompatActivity implements View.OnClickListener{
                 Intent intent1 = new Intent(language.this, commonAntibiotics.class);
                 startActivity(intent1);
                 break;
-            //case R.id.sizes:
-               // Intent intent2 = new Intent(language.this, commonIllnesses.class);
-               // startActivity(intent2);
-               // break;
+            case R.id.backgroundinfo:
+                Intent intent2 = new Intent(language.this, commonIllnesses.class);
+                startActivity(intent2);
+                break;
             case R.id.languages:
                 Intent intent3 = new Intent(language.this, LANGUAGES.class);
                 startActivity(intent3);

@@ -43,11 +43,11 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
                 startActivity(intent2);
                 break;
             case R.id.preguntas:
-                Intent intent4 = new Intent(spanishHomePage.this, spanishCommonQuestions.class);
+                Intent intent4 = new Intent(spanishHomePage.this, faqs.class);
                 startActivity(intent4);
                 break;
             case R.id.clinicas:
-                Intent intent5 = new Intent(spanishHomePage.this, spanishclinic.class);
+                Intent intent5 = new Intent(spanishHomePage.this, localClinics.class);
                 startActivity(intent5);
                 break;
             case R.id.adjustes: //this case actually represents what will be the settings page, no longer the language
