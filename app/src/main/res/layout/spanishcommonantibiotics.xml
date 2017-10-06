@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthyhostapp.healthyhost.MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <!-- everything you already have -->
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Please click on the antibiotic you would like to learn more about"
+                android:textSize="30sp"
+                android:background="#ffffff"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:id="@+id/textView1"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Levaquin"
+                android:layout_weight="0.20"
+                android:id="@+id/spanlevaquin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Doxiciclina"
+                android:layout_weight="0.20"
+                android:id="@+id/spandoxy"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Amoxicilina"
+                android:layout_weight="0.20"
+                android:id="@+id/spanamoxcillin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Azitromicina"
+                android:layout_weight="0.20"
+                android:id="@+id/spanazithromycin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Metronidazol"
+                android:layout_weight="0.20"
+                android:id="@+id/spanmetronidazole"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Eritromicina"
+                android:layout_weight="0.20"
+                android:id="@+id/spanerythromycin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Cefalexina"
+                android:layout_weight="0.20"
+                android:id="@+id/spancephalexin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Flucloxacillin"
+                android:layout_weight="0.20"
+                android:id="@+id/flucloxacillin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ceftriaxone"
+                android:layout_weight="0.20"
+                android:id="@+id/ceftriaxone"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Penecillin G"
+                android:layout_weight="0.20"
+                android:id="@+id/gpill"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Ofloxacin"
+                android:layout_weight="0.20"
+                android:id="@+id/ofloxacin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Do's and Don'ts"
+                android:layout_weight="0.20"
+                android:id="@+id/button3"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
+

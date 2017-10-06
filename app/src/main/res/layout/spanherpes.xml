@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum = "1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="40dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Herpes Tipo 2"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text=" El herpes genital, cuando existen llagas alrededor de los genitales o el ano, se transmite a través del contacto sexual con alguien que tiene HSV-2."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Symptoms:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Llagas alrededor de la zona genital."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textSize="30dp"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Common Treatments:"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="La medicación antiviral se puede utilizar para reducir los síntomas, pero no se puede curar. No se necesitan antibióticos"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+    </TableLayout>
+</ScrollView>
