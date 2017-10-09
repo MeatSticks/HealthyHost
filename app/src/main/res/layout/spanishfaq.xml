@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ILLNESSES-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--There can not be any more than one child to the ScrollView Parent, resulting in the LinearLayout-->
+        <!--Which has the ability to contain multiple child objects-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Preguntas Frecuentes"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--This is where the name of the page goes-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. ¿Cuál es la diferencia entre las infecciones bacterianas y virales?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. ¿Cómo se distinguen las síntomas de infecciones bacterianas a los de infecciones virales?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                /> <!--Copy and Paste the following code block for all of the questions necessary-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. ¿Cuál es la diferencia entre los tratamientos para las infecciones bacterianas y las virales?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. ¿Cuándo necesito antibióticos? ¿Existen otras alternativas de tratamientos seguros?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5. ¿Cómo afectaran los antibióticos las bacterias naturales en el cuerpo?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6. ¿Interfiere el antibiótico contra la efectividad de otras medicinas tales como las píldoras anticonceptivas?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7. ¿Que es la resistencia antibiótica? ¿Acaso el tomar un antibiótico reduce su efectividad para curar infecciones bacterianas en el futuro? ¿Cómo se puede prevenir esto?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8. ¿Cuál es la dosis apropiada para tomar antibióticos? ¿Por cuánto tiempo se deben tomar los antibióticos?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9. ¿Importa en donde o de qué lugar obtengo los antibióticos? ¿Por qué?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10. ¿Existen posibles reacciones adversas si los antibióticos se toman con comida(s) o alcohol? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="11. Cuando se toman antibióticos con otras medicinas. . ."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="a.  ¿De cuáles medicinas debo tener cuidado al tomar antibióticos? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="b. ¿Existen medicinas comunes que no se pueden tomar durante el consumo de antibióticos? "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="c.  ¿Cuáles son los efectos secundarios dañinos que debo buscar al comenzar el proceso de medicinas dobles o múltiples? "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="12.  Cuando se toman los antibióticos. . ."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="a.  ¿Debo comer antes de tomar antibióticos? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="b.  ¿Cuánto dura el proceso del antibiótico?  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="c.  ¿Cuándo empieza a funcionar la medicina? ¿Cómo sé que funciona? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="d.  ¿Si me siento mejor, debo terminar de tomar el número o dosis recetada?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="e.  ¿Qué sucede si accidentalmente me pierdo una dosis? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="f.  ¿Existen efectos secundarios que debo buscar al comenzar el antibiótico? "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

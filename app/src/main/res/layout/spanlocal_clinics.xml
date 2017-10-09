@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ILLNESSES-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--There can not be any more than one child to the ScrollView Parent, resulting in the LinearLayout-->
+        <!--Which has the ability to contain multiple child objects-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Local Clinicas"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--This is where the name of the page goes-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Merced Medical Clinic"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="650 W. Olive Ave #A, Merced, CA 95348"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 722-8047"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 11 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: Cerrado"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 11 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Thursday: 11 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: Cerrado"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: 9 AM - 12 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. Golden Valley Health Center"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="127 W El Portal Drive Ste B, Merced, CA 95348"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 381-4104"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. A Castle Medical Clinic "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="340 E Yosemite Ave, Merced, CA 95340 "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Telefono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 381-0105 "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves : 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado : 8 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. Planned Parenthood "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3166 Collins Drive, Merced, CA 95348 "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 723-7751"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 8 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 8 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 8 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 8 AM - 8 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 8 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5. Patients First Medical Center (Atención Urgente)"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="394 E Yosemite Ave, Merced, CA 95340"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 383-3990"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 9 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: 9 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="6. Bloss Clinic Merced(Atención Urgente)"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1251 Grove Ave A, Atwater, CA 95301"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 358-8425"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 6 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 6 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 6 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 8 AM - 6 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 6 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="7. A Family's Urgent Care(Atención Urgente)"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2644 M Street, Merced, CA 95340"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 722-5308"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 10 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 10 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 10 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 10 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 10 AM - 5:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: Cerrado"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8. Children and Family Medical Care"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1190 W Olive Ave, Unit L, Merced, CA 95340"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 722-0831"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: Cerrado "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 8 AM - 5 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: 8 AM - 5 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9. Fountain View Urgent Care"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Address: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="374 W Olive  Ave # A, Merced CA 95348"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="map"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Teléfono: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="(209) 384-5766"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:autoLink="phone"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Horas: "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Domingo: 9 AM - 5:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lunes: 8 AM - 8:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Martes: 8 AM - 8:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Miércoles: 8 AM - 8:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jueves: 8 AM - 8:30 PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Viernes: 8 AM - 8:30 PM "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sábado: 9 AM-5:30PM"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
