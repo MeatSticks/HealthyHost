@@ -57,8 +57,6 @@ public class commonIllnesses extends AppCompatActivity implements View.OnClickLi
         Button mastitis = (Button) findViewById(R.id.mastitis);
         mastitis.setOnClickListener(this);
 
-        Button asthma = (Button) findViewById(R.id.asthma);
-        asthma.setOnClickListener(this);
 
     }
     public void onClick(View v){
@@ -127,10 +125,6 @@ public class commonIllnesses extends AppCompatActivity implements View.OnClickLi
                 startActivity(intent15);
                 break;
 
-            case R.id.asthma:
-                Intent intent16 = new Intent(commonIllnesses.this, asthma.class);
-                startActivity(intent16);
-                break;
         }
     }
 }
