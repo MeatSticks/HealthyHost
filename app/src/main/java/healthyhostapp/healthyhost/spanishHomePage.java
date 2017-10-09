@@ -22,14 +22,16 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
         Button enfermedades = (Button) findViewById(R.id.enfermedades);
         enfermedades.setOnClickListener(this); //Illnesses
 
-        Button preguntas =(Button) findViewById(R.id.preguntas);
-        preguntas.setOnClickListener(this);
+        Button spanishfaq =(Button) findViewById(R.id.spanishfaq);
+        spanishfaq.setOnClickListener(this);
 
-        Button clinicas =(Button) findViewById(R.id.clinicas);
-        clinicas.setOnClickListener(this);
+        Button spanlocal_clinics =(Button) findViewById(R.id.spanlocal_clinics);
+        spanlocal_clinics.setOnClickListener(this);
 
         Button adjustes = (Button) findViewById(R.id.adjustes);
         adjustes.setOnClickListener(this);
+
+
 
     }
     public void onClick(View v) {
@@ -42,12 +44,12 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
                 Intent intent2 = new Intent(spanishHomePage.this, spanishCommonIllnesses.class);
                 startActivity(intent2);
                 break;
-            case R.id.preguntas:
-                Intent intent4 = new Intent(spanishHomePage.this, faqs.class);
+            case R.id.spanishfaq:
+                Intent intent4 = new Intent(spanishHomePage.this, Spanish_Faq.class);
                 startActivity(intent4);
                 break;
-            case R.id.clinicas:
-                Intent intent5 = new Intent(spanishHomePage.this, localClinics.class);
+            case R.id.spanlocal_clinics:
+                Intent intent5 = new Intent(spanishHomePage.this, spanlocal_clinics.class);
                 startActivity(intent5);
                 break;
             case R.id.adjustes: //this case actually represents what will be the settings page, no longer the language
