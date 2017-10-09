@@ -17,11 +17,11 @@
             android:autoLink="all"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Cefalexina"
+            android:text="Ceftriaxona"
             android:textStyle="normal|bold" />
 
         <TextView
-            android:text="Esta es utilizada para tratar infecciones bacterianas del oído, sistema respiratorio, piel y vías urinarias. "
+            android:text="Un antibiótico utilizado para parar el crecimiento de bacteria. Se utiliza para tratar con la gonorrea, meningitis, así como infecciones del oído, pulmones e infecciones de la piel. "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
