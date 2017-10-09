@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text=": This infection in the breast is typically acquired during the first six weeks of breast feeding. It can be treated by regularly pumping breast milk and using antibiotics. "
+                android:text="This infection in the breast is typically acquired during the first six weeks of breast feeding. It can be treated by regularly pumping breast milk and using antibiotics. "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
