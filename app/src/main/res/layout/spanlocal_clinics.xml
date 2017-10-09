@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Local Clinicas"
+                android:text="Clinicas Medicas"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -136,7 +136,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 11 AM - 5 PM "
+                android:text="Jueves: 11 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -170,11 +170,11 @@
                 android:text="2. Golden Valley Health Center"
                 android:textStyle="bold"
                 android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="20dp"
-                />
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            />
 
             <TextView
                 android:layout_width="match_parent"
@@ -408,7 +408,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Jueves : 8 AM - 5:30 PM"
+                android:text="Jueves: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -428,7 +428,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado : 8 AM - 5:30 PM"
+                android:text=" : 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -504,7 +504,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: 9 AM - 5 PM "
+                android:text="Domingo: 9 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -564,7 +564,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Domingo: Cerrado"
+                android:text="Sábado: Cerrado"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -640,7 +640,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: 9 AM - 5 PM "
+                android:text="Domingo: 9 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -700,7 +700,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Domingo: 9 AM - 5 PM"
+                android:text="Sábado: 9 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -777,7 +777,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: Cerrado "
+                android:text="Domingo: Cerrado "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -837,7 +837,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Domingo: Cerrado "
+                android:text="Sábado: Cerrado "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -914,7 +914,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: Cerrado "
+                android:text="Domingo: Cerrado "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -974,7 +974,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Domingo: Cerrado"
+                android:text="Sábado: Cerrado"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1050,7 +1050,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: Cerrado "
+                android:text="Domingo: Cerrado "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1246,13 +1246,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sábado: 9 AM-5:30PM"
+                android:text="Sábado: 9 AM - 5:30PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
                 android:paddingLeft="60dp"
                 android:paddingRight="10dp"
                 />
+            <!--COPY BETWEEN LINES 31 and 164 for each new medical clinic entry!-->
 
 
         </LinearLayout>
