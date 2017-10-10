@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ILLNESSES-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-</LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Background Information"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--This is where the name of the page goes-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Healthy House, a non-profit which trains professional healthcare interpreters, is dedicated to addressing health disparities in the cultural communities of the Central Valley of California, one of the most diverse areas in the country. Its Healthy Host program, in collaboration with the UC engineering and Project Protect student groups, has developed this application to address the serious issue of the misuse and overuse of antibiotics.  Since the discovery of these miracle drugs, doctors have been relying on antibiotics to treat many illnesses common to the public.  However, the common overuse of antibiotics to treat viral infections, for which they are ineffective, has created a crisis of very resistant bacteria that exhibit limited or no response to antibiotics.  This has led to the prescribing of stronger and larger amounts of antibiotics, further exacerbating the problem.  Additionally, antibiotics are frequently misused.  For example, when patients don’t complete their full course of treatment with antibiotics, the effectiveness of the medication is compromised.  In addition, members of cultural communities often procure antibiotics through underground or unregulated sources.  This contributes to the misuse of antibiotics that are too strong or not appropriate for the respective illnesses being targeted.  It is with high hopes that this ‘app’ helps promote understanding of the serious health crisis of antibiotic resistance and what can be done to prevent it."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
