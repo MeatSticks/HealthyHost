@@ -160,12 +160,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="a.  ¿De cuáles medicinas debo tener cuidado al tomar antibióticos? "
+                android:text="a. ¿De cuáles medicinas debo tener cuidado al tomar antibióticos? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
@@ -176,104 +176,104 @@
             android:textStyle="bold"
             android:textColor="#000000"
             android:textSize="30dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="20dp"
             />
 
             <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="c.  ¿Cuáles son los efectos secundarios dañinos que debo buscar al comenzar el proceso de medicinas dobles o múltiples? "
+            android:text="c. ¿Cuáles son los efectos secundarios dañinos que debo buscar al comenzar el proceso de medicinas dobles o múltiples? "
             android:textStyle="bold"
             android:textColor="#000000"
             android:textSize="30dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="20dp"
             />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="12.  Cuando se toman los antibióticos. . ."
+                android:text="12. Cuando se toman los antibióticos. . ."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="a.  ¿Debo comer antes de tomar antibióticos? "
+                android:text="a. ¿Debo comer antes de tomar antibióticos? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="b.  ¿Cuánto dura el proceso del antibiótico?  "
+                android:text="b. ¿Cuánto dura el proceso del antibiótico?  "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="c.  ¿Cuándo empieza a funcionar la medicina? ¿Cómo sé que funciona? "
+                android:text="c. ¿Cuándo empieza a funcionar la medicina? ¿Cómo sé que funciona? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="d.  ¿Si me siento mejor, debo terminar de tomar el número o dosis recetada?"
+                android:text="d. ¿Si me siento mejor, debo terminar de tomar el número o dosis recetada?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="e.  ¿Qué sucede si accidentalmente me pierdo una dosis? "
+                android:text="e. ¿Qué sucede si accidentalmente me pierdo una dosis? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="f.  ¿Existen efectos secundarios que debo buscar al comenzar el antibiótico? "
+                android:text="f. ¿Existen efectos secundarios que debo buscar al comenzar el antibiótico? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
         </LinearLayout>

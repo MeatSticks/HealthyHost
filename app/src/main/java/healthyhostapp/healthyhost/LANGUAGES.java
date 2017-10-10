@@ -24,6 +24,7 @@ public class LANGUAGES extends AppCompatActivity implements View.OnClickListener
 
         Button languages =(Button) findViewById(R.id.hmong);
         languages.setOnClickListener(this);
+
 }
     public void onClick(View v){
         switch(v.getId()){
@@ -39,6 +40,8 @@ public class LANGUAGES extends AppCompatActivity implements View.OnClickListener
                 Intent intent3 = new Intent(LANGUAGES.this, hmongHomePage.class);
                 startActivity(intent3);
                 break;
+
+
         }
     }
 }

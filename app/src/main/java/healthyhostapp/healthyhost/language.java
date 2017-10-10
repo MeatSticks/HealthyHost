@@ -29,11 +29,11 @@ public class language extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v){
         switch(v.getId()){
             case R.id.resources:
-                Intent intent1 = new Intent(language.this, commonAntibiotics.class);
+                Intent intent1 = new Intent(language.this, resources.class);
                 startActivity(intent1);
                 break;
             case R.id.backgroundinfo:
-                Intent intent2 = new Intent(language.this, commonIllnesses.class);
+                Intent intent2 = new Intent(language.this, backgroundinfo.class);
                 startActivity(intent2);
                 break;
             case R.id.languages:
