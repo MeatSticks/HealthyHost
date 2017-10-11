@@ -26,7 +26,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Type 2 Herpes"
+                android:text="Herpes Tipo 2"
                 android:layout_weight="0.20"
                 android:id="@+id/spanherpes"
                 android:color="#66FF0000"

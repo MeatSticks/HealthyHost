@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Antibiotic Name"
+                android:text="Levaquin"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Used to treat bacterial infections of the skin, bladder, kidney and prostate."
+                android:text="Used to treat bacterial infections of the skin, bladder, kidney and prostate, it is also used to fight bacteria that cause pneumonia and bronchitis."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="It is also used to fight bacteria that cause pneumonia and bronchitis."
+                android:text="Immense pain, joint stiffness, bruising, swelling, problems that affect movement."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"

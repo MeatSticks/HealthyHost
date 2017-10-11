@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:text="NO presione a su médico para que le recete antibióticos;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#009A00" />
+
+        <TextView
+            android:text="NO tome antibióticos para un resfriado común. Los resfriados son causados por un virus, no la bacteria. El tratamiento es típicamente descanso, muchos líquidos, y medicinas para la fiebre o dolor de cabeza;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="NO tome antibióticos para infecciones virales ya que no son efectivos;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="NO tome antibióticos al menos que hayan sido recetados por un médico para un enfermedad actual;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#009A00" />
+        <TextView
+            android:text="NO comparta antibióticos con otras personas ni los obtenga de fuentes no reguladas. Las enfermedades de otros son probablemente diferentes a la suya y un antibiótico equivocado le podría hacer más mal que bien;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="NO tome antibióticos simplemente porque estuvo expuesto a un enfermo. Esto podría aumentar su probabilidad de contraer una infección resistente."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+    </TableLayout>
+</ScrollView>

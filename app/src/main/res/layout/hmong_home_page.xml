@@ -3,4 +3,67 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Antibiotics"
+        android:layout_weight="0.20"
+        android:id="@+id/button1"
+        android:color="#66FF0000"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Illnesses"
+        android:layout_weight="0.20"
+        android:id="@+id/button2"
+        android:color="#66FF0000"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Common Questions to Ask Doctors"
+        android:layout_weight="0.20"
+        android:id="@+id/button4"
+        android:color="#66FF0000"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Medical Clinics"
+        android:layout_weight="0.20"
+        android:id="@+id/button5"
+        android:color="#66FF0000"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Settings"
+        android:layout_weight="0.20"
+        android:id="@+id/button6"
+        android:color="#66FF0000"
+        android:alpha="0.80"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+
+    </LinearLayout>

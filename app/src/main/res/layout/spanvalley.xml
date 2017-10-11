@@ -1,71 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ILLNESSES-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum = "1">
-    <TableLayout
+    android:layout_height="match_parent">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:stretchColumns="1">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:textSize="40dp"
-            android:autoLink="all"
-            android:textColor="#000000"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Coccidioidomicosis (Fiebre del Valle)"
-            android:textStyle="normal|bold" />
-
-        <TextView
-            android:text="Una enfermedad causada por un hongo que habita en la tierra, Coccidioides immitis. Pequeñitas semillas, o esporas, son arrastradas por el viento y son  inhaladas en los pulmones en donde comienza la infección."
+        <!--There can not be any more than one child to the ScrollView Parent, resulting in the LinearLayout-->
+        <!--Which has the ability to contain multiple child objects-->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:textColor="#000000" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:textSize="30dp"
-            android:autoLink="all"
-            android:textColor="#000000"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Síntomas:"
-            android:textStyle="normal|bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coccidioidomicosis (Fiebre del Valle)"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--This is where the name of the page goes-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Descripción"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Una enfermedad causada por un hongo que habita en la tierra, Coccidioides immitis. Pequeñitas semillas, o esporas, son arrastradas por el viento y son  inhaladas en los pulmones en donde comienza la infección."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Síntoma"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Symptoms - DO NOT CHANGE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Las personas pueden experimentar dolor en el pecho, escalofríos, fatiga, fiebre, bultos o erupciones cutáneas, dificultad para respirar y pérdida de peso."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tratamiento"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Treatment(s) - DO NOT CHANGE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Medicamentos antimicóticos, No se necesitan antibióticos."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
-        <TextView
-            android:text="Las personas pueden experimentar dolor en el pecho, escalofríos, fatiga, fiebre, bultos o erupciones cutáneas, dificultad para respirar y pérdida de peso."
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Información Adicional"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Additional Information - DO NOT CHANGE-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:textSize="30dp"
-            android:autoLink="all"
-            android:textColor="#000000"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Tratamiento común: "
-            android:textStyle="normal|bold" />
-
-        <TextView
-            android:text="Medicamentos antimicóticos, No se necesitan antibióticos."
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="#000000" />
-
-    </TableLayout>
-</ScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="https://www.cdc.gov/groupAstrep/index.html"
+                android:autoLink="web"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

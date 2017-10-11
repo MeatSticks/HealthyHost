@@ -49,6 +49,9 @@ public class spanishCommonAntibiotics extends AppCompatActivity implements View.
         Button spanofloxacin = (Button) findViewById(R.id.spanofloxacin);
         spanofloxacin.setOnClickListener(this);
 
+        Button spanish_antibiotic_usage = (Button) findViewById(R.id.spanish_antibiotics_proper_improper);
+        spanish_antibiotic_usage.setOnClickListener(this);
+
     }
 
     public void onClick(View v) {
@@ -106,6 +109,11 @@ public class spanishCommonAntibiotics extends AppCompatActivity implements View.
             case R.id.spanofloxacin:
                 Intent intent10 = new Intent(spanishCommonAntibiotics.this, spanofloxacin.class);
                 startActivity(intent10);
+                break;
+
+            case R.id.spanish_antibiotics_proper_improper:
+                Intent intent11 = new Intent(spanishCommonAntibiotics.this, Spanish_Antibiotic_Usage.class);
+                startActivity(intent11);
                 break;
         }
     }
