@@ -8,28 +8,29 @@
         android:layout_height="match_parent"
         android:stretchColumns="1">
 
+
         <TextView
             android:paddingTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Bienvenidos a Healthy Host"
+            android:text="Settings"
             android:textSize="30sp"
             android:background="#ffffff"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:id="@+id/textView1"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
             android:layout_marginBottom="12dp"/>
+
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Antibioticos"
+            android:text="Resources"
             android:layout_weight="0.20"
-            android:id="@+id/antibioticos"
+            android:id="@+id/resources"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
@@ -39,22 +40,9 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Enfermedades"
+            android:text="Background"
             android:layout_weight="0.20"
-            android:id="@+id/enfermedades"
-            android:color="#66FF0000"
-            android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
-
-
-        <Button
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="Preguntas Comun para Hacer a su Doctor"
-            android:layout_weight="0.20"
-            android:id="@+id/spanishfaq"
+            android:id="@+id/spanishbackgroundinfo"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
@@ -64,28 +52,14 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Clinicas Medicas"
+            android:text="Languages"
             android:layout_weight="0.20"
-            android:id="@+id/spanlocal_clinics"
+            android:id="@+id/languages"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
             android:textSize="20sp"/>
 
-        <Button
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="Adjustes"
-            android:layout_weight="0.20"
-            android:id="@+id/adjustes"
-            android:color="#66FF0000"
-            android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
-
-
-        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
 
     </TableLayout>
 </ScrollView>
