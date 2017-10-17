@@ -44,6 +44,18 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:text="Antibiotic usage"
+                android:layout_weight="0.20"
+                android:id="@+id/spanish_antibiotics_proper_improper"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
                 android:text="Amoxicilina"
                 android:layout_weight="0.20"
                 android:id="@+id/spanamoxcillin"
@@ -177,18 +189,6 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Antibiotic usage"
-                android:layout_weight="0.20"
-                android:id="@+id/spanish_antibiotics_proper_improper"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
 
 
         </TableLayout>
