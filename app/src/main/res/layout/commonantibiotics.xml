@@ -44,31 +44,6 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Levaquin"
-                android:layout_weight="0.20"
-                android:id="@+id/levaquin"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Doxycycline"
-                android:layout_weight="0.20"
-                android:id="@+id/poxycycline"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
                 android:text="Amoxicillin"
                 android:layout_weight="0.20"
                 android:id="@+id/amoxcillin"
@@ -77,7 +52,6 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-
             <Button
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
@@ -85,55 +59,6 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
                 android:text="Azithromycin"
                 android:layout_weight="0.20"
                 android:id="@+id/azithromycin"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Metronidazole"
-                android:layout_weight="0.20"
-                android:id="@+id/metronidazole"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Erythromycin"
-                android:layout_weight="0.20"
-                android:id="@+id/erythromycin"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Cephalexin"
-                android:layout_weight="0.20"
-                android:id="@+id/cephalexin"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Flucloxacillin"
-                android:layout_weight="0.20"
-                android:id="@+id/flucloxacillin"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
@@ -155,13 +80,76 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Penecillin G"
+                android:text="Cephalexin"
                 android:layout_weight="0.20"
-                android:id="@+id/gpill"
+                android:id="@+id/cephalexin"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Doxycycline"
+                android:layout_weight="0.20"
+                android:id="@+id/poxycycline"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Erythromycin"
+                android:layout_weight="0.20"
+                android:id="@+id/erythromycin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Flucloxacillin"
+                android:layout_weight="0.20"
+                android:id="@+id/flucloxacillin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Levaquin"
+                android:layout_weight="0.20"
+                android:id="@+id/levaquin"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Metronidazole"
+                android:layout_weight="0.20"
+                android:id="@+id/metronidazole"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
             <Button
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
@@ -173,6 +161,19 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
                 android:alpha="0.80"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Penecillin G"
+                android:layout_weight="0.20"
+                android:id="@+id/gpill"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
 
             <Button
                 android:layout_marginTop="10dp"
