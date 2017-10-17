@@ -21,14 +21,13 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
         android:stretchColumns="1">
 
         <!-- everything you already have -->
-
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Type 2 Herpes"
+            android:text="Chlamydia"
             android:layout_weight="0.20"
-            android:id="@+id/herpes"
+            android:id="@+id/clap"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
@@ -39,9 +38,22 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Mononucleosis"
+            android:text="Ear Infection"
             android:layout_weight="0.20"
-            android:id="@+id/Mono"
+            android:id="@+id/ear"
+            android:color="#66FF0000"
+            android:alpha="0.80"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="H. Pylori"
+            android:layout_weight="0.20"
+            android:id="@+id/pylori"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
@@ -65,13 +77,41 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Valley Fever"
+            android:text="Lyme Disease"
             android:layout_weight="0.20"
-            android:id="@+id/ValleyFever"
+            android:id="@+id/lyme"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
             android:textSize="20sp"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Mastitis"
+            android:layout_weight="0.20"
+            android:id="@+id/mastitis"
+            android:color="#66FF0000"
+            android:alpha="0.80"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Mononucleosis"
+            android:layout_weight="0.20"
+            android:id="@+id/Mono"
+            android:color="#66FF0000"
+            android:alpha="0.80"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -84,6 +124,7 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:textStyle="bold"
             android:textSize="20sp"/>
 
+
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
@@ -95,6 +136,7 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:alpha="0.80"
             android:textStyle="bold"
             android:textSize="20sp"/>
+
 
         <Button
             android:layout_marginTop="10dp"
@@ -113,6 +155,19 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:text="Type 2 Herpes"
+            android:layout_weight="0.20"
+            android:id="@+id/herpes"
+            android:color="#66FF0000"
+            android:alpha="0.80"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
             android:text="Urinary Tract Infection"
             android:layout_weight="0.20"
             android:id="@+id/uti"
@@ -121,65 +176,31 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:textStyle="bold"
             android:textSize="20sp"/>
 
-        <Button
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="Chlamydia"
-            android:layout_weight="0.20"
-            android:id="@+id/clap"
-            android:color="#66FF0000"
-            android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
 
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Ear Infection"
+            android:text="Valley Fever"
             android:layout_weight="0.20"
-            android:id="@+id/ear"
+            android:id="@+id/ValleyFever"
             android:color="#66FF0000"
             android:alpha="0.80"
             android:textStyle="bold"
             android:textSize="20sp"/>
 
-        <Button
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="H. Pylori"
-            android:layout_weight="0.20"
-            android:id="@+id/pylori"
-            android:color="#66FF0000"
-            android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
 
-        <Button
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="Lyme Disease"
-        android:layout_weight="0.20"
-        android:id="@+id/lyme"
-        android:color="#66FF0000"
-        android:alpha="0.80"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
 
-        <Button
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:text="Mastitis"
-            android:layout_weight="0.20"
-            android:id="@+id/mastitis"
-            android:color="#66FF0000"
-            android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
 
     </TableLayout>
 </ScrollView>
