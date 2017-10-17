@@ -21,14 +21,79 @@
             android:stretchColumns="1">
 
             <!-- everything you already have -->
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Clamidia"
+                android:layout_weight="0.20"
+                android:id="@+id/spanclap"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
 
             <Button
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Herpes Tipo 2"
+                android:text="Infecciones de los Oídos"
                 android:layout_weight="0.20"
-                android:id="@+id/spanherpes"
+                android:id="@+id/spanear"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Helicobacter pylori"
+                android:layout_weight="0.20"
+                android:id="@+id/spanpylori"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Impétigo"
+                android:layout_weight="0.20"
+                android:id="@+id/spanImpetigo"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Enfermedad de Lyme"
+                android:layout_weight="0.20"
+                android:id="@+id/spanlyme"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Mastitis"
+                android:layout_weight="0.20"
+                android:id="@+id/spanmastitis"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
@@ -52,30 +117,6 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Impétigo"
-                android:layout_weight="0.20"
-                android:id="@+id/spanImpetigo"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Coccidioidomicosis (Fiebre del Valle)"
-                android:layout_weight="0.20"
-                android:id="@+id/spanValleyFever"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
                 android:text="Fascitis Necrotizante (bacteria carnívora)"
                 android:layout_weight="0.20"
                 android:id="@+id/spannecro"
@@ -83,6 +124,7 @@
                 android:alpha="0.80"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+
 
             <Button
                 android:layout_marginTop="10dp"
@@ -95,6 +137,7 @@
                 android:alpha="0.80"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+
 
             <Button
                 android:layout_marginTop="10dp"
@@ -113,6 +156,19 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
+                android:text="Herpes Tipo 2"
+                android:layout_weight="0.20"
+                android:id="@+id/spanherpes"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
                 android:text="Infección del Tracto Urinario (UTI)"
                 android:layout_weight="0.20"
                 android:id="@+id/spanuti"
@@ -121,65 +177,32 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Clamidia"
-                android:layout_weight="0.20"
-                android:id="@+id/spanclap"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
 
             <Button
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Infecciones de los Oídos"
+                android:text="Coccidioidomicosis (Fiebre del Valle)"
                 android:layout_weight="0.20"
-                android:id="@+id/spanear"
+                android:id="@+id/spanValleyFever"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Helicobacter pylori"
-                android:layout_weight="0.20"
-                android:id="@+id/spanpylori"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
 
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Enfermedad de Lyme"
-                android:layout_weight="0.20"
-                android:id="@+id/spanlyme"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
 
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:text="Mastitis"
-                android:layout_weight="0.20"
-                android:id="@+id/spanmastitis"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
+
 
 
         </TableLayout>
