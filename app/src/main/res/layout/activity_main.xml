@@ -40,20 +40,7 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Proceed"
-                android:id="@+id/goToHomePage"
-                android:layout_marginBottom="12dp"
-                android:color="#66FF0000"
-                android:alpha="0.90"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="12dp"
-                android:gravity="center_horizontal" />
+
         </TableLayout>
     </ScrollView>
 </RelativeLayout>
