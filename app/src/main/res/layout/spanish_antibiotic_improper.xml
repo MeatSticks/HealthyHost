@@ -14,21 +14,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="24sp"
-            android:textColor="#009A00" />
+            android:textColor="#CC0000" />
 
         <TextView
             android:text="NO tome antibióticos para un resfriado común. Los resfriados son causados por un virus, no la bacteria. El tratamiento es típicamente descanso, muchos líquidos, y medicinas para la fiebre o dolor de cabeza;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:textColor="#009A00"
+            android:textColor="#CC0000"
             android:layout_marginTop="20dp"/>
         <TextView
             android:text="NO tome antibióticos para infecciones virales ya que no son efectivos;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:textColor="#009A00"
+            android:textColor="#CC0000"
             android:layout_marginTop="20dp"/>
         <TextView
             android:text="NO tome antibióticos al menos que hayan sido recetados por un médico para un enfermedad actual;"
@@ -36,13 +36,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="24sp"
-            android:textColor="#009A00" />
+            android:textColor="#CC0000" />
         <TextView
             android:text="NO comparta antibióticos con otras personas ni los obtenga de fuentes no reguladas. Las enfermedades de otros son probablemente diferentes a la suya y un antibiótico equivocado le podría hacer más mal que bien;"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:textColor="#009A00"
+            android:textColor="#CC0000"
             android:layout_marginTop="20dp"
             />
         <TextView
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:textColor="#009A00"
+            android:textColor="#CC0000"
             android:layout_marginTop="20dp"/>
     </TableLayout>
 </ScrollView>
