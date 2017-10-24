@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Stomach. Leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms and difficulty breathing."
+                android:text="Stomach,leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms and difficulty breathing."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
