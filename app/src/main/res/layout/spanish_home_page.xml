@@ -76,7 +76,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Adjustes"
+            android:text="Ajustes"
             android:layout_weight="0.20"
             android:id="@+id/adjustes"
             android:color="#66FF0000"

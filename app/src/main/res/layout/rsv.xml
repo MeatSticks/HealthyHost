@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="here is no specific treatment, but most cases resolve in a week or two."
+                android:text="There is no specific treatment, but most cases resolve in a week or two."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
