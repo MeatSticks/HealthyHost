@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Antibiotic Name"
+                android:text="Amoxicillin"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Stomach,leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms and difficulty breathing."
+                android:text="Stomach, leg or chest pain, diarrhea, mouth or skin sores, cold-like symptoms, and difficulty breathing."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -95,6 +95,9 @@
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

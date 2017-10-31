@@ -55,7 +55,8 @@ public class commonAntibiotics extends AppCompatActivity implements View.OnClick
         Button dos_donts = (Button) findViewById(R.id.button3);
         dos_donts.setOnClickListener(this);
 
-
+        Button home_page = (Button) findViewById(R.id.homepage);
+        home_page.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -114,10 +115,16 @@ public class commonAntibiotics extends AppCompatActivity implements View.OnClick
                 Intent intent10 = new Intent(commonAntibiotics.this, ofloxacin.class);
                 startActivity(intent10);
                 break;
+
             case R.id.button3:
                 Intent intent11 = new Intent(commonAntibiotics.this, dos_donts.class);
                 startActivity(intent11);
                 break;
+
+            case R.id.homepage:
+                Intent intent12 = new Intent (commonAntibiotics.this, homePage.class);
+                startActivity(intent12);
+
         }
     }
 }
