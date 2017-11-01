@@ -25,10 +25,14 @@ public class amoxcillin extends AppCompatActivity {
         pause.setOnClickListener(btnClick);
         Button reset = (Button) findViewById(R.id.btnResetAudio);
         reset.setOnClickListener(btnClick);
+
+        // load the audio in /raw folder called moonlight
         mediaPlayer = MediaPlayer.create(this, R.raw.moonlight);
+        // loop the audio to play when it ends
         mediaPlayer.setLooping(true);
     }
 
+    // play audio, if it is already playing reset it
     static void playAudio() {
         if(mediaPlayer.isPlaying() == false)
             mediaPlayer.start(); // no need to call prepare(); create() does that for you
@@ -36,16 +40,19 @@ public class amoxcillin extends AppCompatActivity {
             resetAudio();
     }
 
+    // reset audio to 0sec and lay it
     static void resetAudio() {
         mediaPlayer.seekTo(0);
         mediaPlayer.start();
     }
 
+    // pause the video if it is playing
     static void pauseAudio() {
         if(mediaPlayer.isPlaying())
             mediaPlayer.pause();
     }
 
+    // the button click handlers for play, pause, and reset buttons
     final View.OnClickListener btnClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
