@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="HMONG Medical Clinics"
+                android:text="Medical Clinics"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed"
+                android:text="Kaw hnub Sunday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -106,7 +106,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 11 AM - 5 PM"
+                android:text="Monday qhib thaum: 11 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -116,7 +116,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: Closed"
+                android:text="Kaw hnub Tuesday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -126,7 +126,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 11 AM - 5 PM"
+                android:text="Wednesday qhib thaum: 11 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -136,7 +136,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 11 AM - 5 PM "
+                android:text="Thursday qhib thaum: 11 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -146,7 +146,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: Closed"
+                android:text="Kaw hnub Friday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -156,7 +156,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: 9 AM - 12 PM"
+                android:text="Saturday qhib thaum: 9 AM - 12 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -201,7 +201,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -222,7 +222,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -232,7 +232,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed "
+                android:text="Kaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -242,7 +242,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 5:30 PM "
+                android:text="Monday qhib thaum: 8 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -252,7 +252,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 5:30 PM "
+                android:text="Tuesday qhib thaum: 8 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -262,7 +262,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 5:30 PM"
+                android:text="Wednesday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -272,7 +272,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 8 AM - 5:30 PM"
+                android:text="Thursday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -282,7 +282,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 5:30 PM"
+                android:text="Friday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -292,7 +292,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: Closed "
+                android:text="Kaw hnub Saturday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -337,7 +337,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -358,7 +358,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -368,7 +368,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed "
+                android:text="Kaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -378,7 +378,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 5:30 PM "
+                android:text="Monday qhib thaum: 8 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -388,7 +388,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 5:30 PM "
+                android:text="Tuesday qhib thaum: 8 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -398,7 +398,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 5:30 PM"
+                android:text="Wednesday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -408,7 +408,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday : 8 AM - 5:30 PM"
+                android:text="Thursday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -418,7 +418,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 5:30 PM"
+                android:text="Friday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -428,7 +428,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: 8 AM - 5:30 PM"
+                android:text="Saturday qhib thaum: 8 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -473,7 +473,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -494,7 +494,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -504,7 +504,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: 9 AM - 5 PM "
+                android:text="Kaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -514,7 +514,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 8 PM "
+                android:text="Monday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -524,7 +524,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 8 PM "
+                android:text="Tuesday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -534,7 +534,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 8 PM "
+                android:text="Wednesday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -544,7 +544,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 8 AM - 8 PM "
+                android:text="Thursday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -554,7 +554,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 8 PM"
+                android:text="Friday qhib thaum: 8 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -564,7 +564,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: Closed"
+                android:text="Kaw hnub Saturday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -609,7 +609,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -630,7 +630,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -640,7 +640,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: 9 AM - 5 PM "
+                android:text="Sunday qhib thaum: 9 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -650,7 +650,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 9 AM - 5 PM "
+                android:text="Monday qhib thaum: 8AM - 8 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -660,7 +660,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 9 AM - 5 PM "
+                android:text="Tuesday qhib thaum: 8 AM - 8 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -670,7 +670,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 9 AM - 5 PM "
+                android:text="Wednesday qhib thaum: 8 AM - 8 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -680,7 +680,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 9 AM - 5 PM "
+                android:text="Thursday qhib thaum: 8 AM - 8 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -690,7 +690,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 9 AM - 5 PM "
+                android:text="Friday qhib thaum: 8 AM - 8 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -700,7 +700,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: 9 AM - 5 PM"
+                android:text="Saturday qhib thaum: 9 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -746,7 +746,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -767,7 +767,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -777,7 +777,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed "
+                android:text="Kaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -787,7 +787,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 6 PM "
+                android:text="Monday qhib thaum: 8 AM - 6 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -797,7 +797,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 6 PM"
+                android:text="Tuesday qhib thaum: 8 AM - 6 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -807,7 +807,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 6 PM"
+                android:text="Wednesday qhib thaum: 8 AM - 6 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -817,7 +817,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 8 AM - 6 PM"
+                android:text="Thursday qhib thaum: 8 AM - 6 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -827,7 +827,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 6 PM"
+                android:text="Friday qhib thaum: 8 AM - 6 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -837,7 +837,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: Closed "
+                android:text="Khaw hnub Saturday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -883,7 +883,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -904,7 +904,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -914,7 +914,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed "
+                android:text="Khaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -924,7 +924,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 10 AM - 5:30 PM "
+                android:text="Monday qhib thaum: 10 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -934,7 +934,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 10 AM - 5:30 PM"
+                android:text="Tuesday qhib thaum: 10 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -944,7 +944,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 10 AM - 5:30 PM"
+                android:text="Wednesday qhib thaum: 10 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -954,7 +954,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 10 AM - 5:30 PM"
+                android:text="Thursday qhib thaum: 10 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -964,7 +964,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 10 AM - 5:30 PM "
+                android:text="Friday qhib thaum: 10 AM - 5:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -974,7 +974,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: Closed"
+                android:text="Khaw hnub Saturday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1019,7 +1019,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -1040,7 +1040,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -1050,7 +1050,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: Closed "
+                android:text="Khaw hnub Sunday: Closed "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1060,7 +1060,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 5 PM "
+                android:text="Monday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1070,7 +1070,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 5 PM "
+                android:text="Tuesday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1080,7 +1080,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 5 PM"
+                android:text="Wednesday qhib thaum: 8 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1090,7 +1090,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 8 AM - 5 PM "
+                android:text="Thursday qhib thaum: 8 AM - 5 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1100,7 +1100,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 5 PM"
+                android:text="Friday qhib thaum: 8 AM - 5 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1110,7 +1110,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: 8 AM - 5 PM"
+                android:text="Khaw hnub Saturday: Closed"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1155,7 +1155,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Telephone: "
+                android:text="Xuv tooj: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -1176,7 +1176,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hours: "
+                android:text="Caij nyoog: "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -1186,7 +1186,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sunday: 9 AM - 5:30 PM"
+                android:text="Sunday qhib thaum: 9 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1196,7 +1196,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Monday: 8 AM - 8:30 PM"
+                android:text="Monday qhib thaum: 8 AM - 8:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1206,7 +1206,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuesday: 8 AM - 8:30 PM"
+                android:text="Tuesday qhib thaum: 8 AM - 8:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1216,7 +1216,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Wednesday: 8 AM - 8:30 PM "
+                android:text="Wednesday qhib thaum: 8 AM - 8:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1226,7 +1226,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thursday: 8 AM - 8:30 PM"
+                android:text="Thursday qhib thaum: 8 AM - 8:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1236,7 +1236,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Friday: 8 AM - 8:30 PM "
+                android:text="Friday qhib thaum: 8 AM - 8:30 PM "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -1246,7 +1246,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Saturday: 9 AM - 5:30PM"
+                android:text="Saturday qhib thaum: 9 AM - 5:30 PM"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"

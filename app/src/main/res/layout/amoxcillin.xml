@@ -67,7 +67,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Used to treat bacterial infections found in the ears, nose, skin, and urinary tract, it  fights infections such as bronchitis, pneumonia, tonsillitis and gonorrhea."
+                android:text="Used to treat bacterial infections found in the ears, nose, skin, and urinary tract, it fights infections such as bronchitis, pneumonia, tonsillitis and gonorrhea."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"

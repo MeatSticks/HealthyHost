@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hmong Common Questions to Ask your Doctor"
+                android:text="Tej Lug Kws Kheev Nug"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="1. What is the difference between bacterial and viral infections?"
+                android:text="1. Qhov tsawv ntawm bacterial hab viral infections yog dlaab tsi?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="2. How do symptoms of bacterial infections differ from that of viral infections?"
+                android:text="2. Yaam kws qha tau tas yog bacterial infections tsawv ntawm viral infections le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="3. What is the difference between bacterial and viral infection treatments?"
+                android:text="3. Kev khu bacterial hab viral infection yog sib tsaws le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -65,7 +65,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="4. When do I need antibiotics?   Are there other safe, alternative treatment plan(s)?"
+                android:text="4. Thaus twg kuv le siv tshuaj lug tiv thaiv kaab mob?  Puas muaj lwm yaam kws yug siv es tsis muaj teeb meem , lwm txuj kev paab (khu) tug mob tau?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -77,7 +77,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="5. When do I need antibiotics?   Are there other safe, alternative treatment plan(s)?"
+                android:text="5. Tej txhuaj tiv thaiv kaab mob yuav tsim teeb meem rua yug cov kab mob nyeg (cov bacteria ib txwm muaj) huv yug lub ceb li  caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -89,7 +89,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="6. Does the antibiotic interfere with the effectiveness of other medications such as birth control pills?"
+                android:text="6. Kev siv tshuaj tiv thaiv kaab mob nwg puas muaj kev cuam txhuam txug lwm yaam tshuaj xws le tshuaj tsi xob pub muaj miv nyuas?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -101,7 +101,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="7. What is antibiotic resistance? Does taking an antibiotic decrease its future effectiveness in treating bacterial infections?  How can this be prevented? "
+                android:text="7. Yaam kaab mob twg kws twv cov  tshuaj  tiv thaiv kaab mob? Yog pheej siv tshuaj tib thaiv kaab mob puas ua tsua muaj teeb meem rov yaav pem suab txog kev kho tug mob bacterial infection? Yuav tiv thaiv tej nuav le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="8. What is the proper dosage when taking the antibiotic? For how long should the antibiotic be continued?"
+                android:text="8. Yuav noj peg tsawg ntsav (lub) thaus noj tshuaj tiv thaiv kaab mob? Nwg yuav siv ntev npaum le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -125,7 +125,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="9. Does it matter where or from what source I get the antibiotics?  If so, why?"
+                android:text="9. Puas ua le caag yog  kuv yuav tej tshuaj tiv thaiv kaab mob nuav qhov twg lov? Yog ua nuav, vim le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -137,7 +137,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="10. Are there possible adverse reactions if the antibiotic is taken with food(s) or alcohol?"
+                android:text="10. Nwg puas txhum ntsuaj  yog has tas kuv noj tshuaj  nrug zaub mov los sis siv  nrug dlej cawv?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -149,7 +149,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="11. When taking the antibiotic with other medications. . ."
+                android:text="11. Thaum noj tshuaj tiv thaiv kaab mob nrug lwm yam tshuaj . . ."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -161,7 +161,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="a. What medication(s) do I need to be careful about when taking antibiotics?"
+                android:text="a. Yaam tshuaj dlaab tsi kws  kuv yuav tsum cev  faaj thaum siv tshuaj tiv thaiv kaab mob?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -173,7 +173,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="b. Are there common medication(s) that cannot be taken when on antibiotics?"
+                android:text="b. Nwg puas muaj tej yaam tshuaj kws siv tsis tau thaus siv tshuaj tiv thaiv kaab mob?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -185,7 +185,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="c. Are there any harmful side effects I should look for once the dual/multiple medications process begins?"
+                android:text="c. Thaum peb noj ntau yaam tshuam lawm puas muaj tej yaam twv los sis ua mob rua yug tug kheej kws yuav tau faj seeb xyuas hab?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -197,7 +197,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="12. When taking antibiotics..."
+                android:text="12. Thaum siv tshuaj tiv thaiv kaab mob . . ."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -209,7 +209,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="a. Do I have to eat before taking the antibiotic?"
+                android:text="a. Kuv puas yuav tsum noj mov ua ntej yuav noj tshuaj tiv thaiv kaab mob?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -220,19 +220,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="b. How long does the antibiotic process last?"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:paddingTop="20dp"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="c. When will the medication start working? How do I know when it’s working?"
+                android:text="b. Kev siv tshuaj tiv thaiv kaab mob nuav yuav noj/siv  ntev npaum le caag?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -244,7 +232,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="d. If feel better, do I still need to finish the complete number/dosage prescribed?"
+                android:text="c. Thaum twg tej tshuaj maam le ua hauj lwm? Ua caag es kuv txhaj le paub tas nwg ua hauj lwm?"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -256,7 +244,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="e. What will happen if I accidentally miss a dose?"
+                android:text="d. Yog thaum paub tas zoo zog  lawm, kuv puas tseem noj kom taag raws le teev tseg? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -268,7 +256,19 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="f. Are there any side effects should I look for once on the antibiotic?"
+                android:text="e. Nwg puas ua le caag yog tas kuv tsi noj raws le has (tseg tsis noj)?"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="f. Thaum kuv siv cov tshuaj tiv thaiv kaab mob lawm puas  muaj lwm yam kev mob tshwm sim kws kuv yuav tau ceev faaj/ tsum kwm txug? "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
