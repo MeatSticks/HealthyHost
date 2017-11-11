@@ -50,13 +50,13 @@ public class Hmong_Antibiotics extends AppCompatActivity implements View.OnClick
         gpill.setOnClickListener(this);
 
         Button ofloxacin = (Button) findViewById(R.id.ofloxacin);
-        ofloxacin.setOnClickListener(this);
+        ofloxacin.setOnClickListener(this);*/
 
-        Button dos_donts = (Button) findViewById(R.id.button3);
-        dos_donts.setOnClickListener(this);
+        Button hmong_antibiotic_usage = (Button) findViewById(R.id.Antibiotic_Usage);
+        hmong_antibiotic_usage.setOnClickListener(this);
 
-        Button home_page = (Button) findViewById(R.id.homepage);
-        home_page.setOnClickListener(this);*/
+        Button hmong_homepage = (Button) findViewById(R.id.hmong_homepage);
+        hmong_homepage.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -114,16 +114,16 @@ public class Hmong_Antibiotics extends AppCompatActivity implements View.OnClick
             case R.id.ofloxacin:
                 Intent intent10 = new Intent(commonAntibiotics.this, ofloxacin.class);
                 startActivity(intent10);
-                break;
+                break;*/
 
-            case R.id.button3:
-                Intent intent11 = new Intent(commonAntibiotics.this, dos_donts.class);
+            case R.id.Antibiotic_Usage:
+                Intent intent11 = new Intent(Hmong_Antibiotics.this, Hmong_Antibiotic_Usage.class);
                 startActivity(intent11);
                 break;
 
-            case R.id.homepage:
-                Intent intent12 = new Intent (commonAntibiotics.this, homePage.class);
-                startActivity(intent12);*/
+            case R.id.hmong_homepage:
+                Intent intent12 = new Intent (Hmong_Antibiotics.this, hmongHomePage.class);
+                startActivity(intent12);
 
         }
     }
