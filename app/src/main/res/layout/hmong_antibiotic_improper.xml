@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:text="TSI XOB quab yuam, los sis, nug  koj tug kws khu mob kom nug muab tshuaj tiv thaiv rua koj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#CC0000" />
+
+        <TextView
+            android:text="TSI XOB noj tshuaj tiv thaiv kab mob thaum koj ua kub/ua no (ua npaws)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#CC0000"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="TSI XOB siv tshuaj tiv thaiv kab mob thaum muaj viral infection nwg tsi muaj kuab (pab tsis tau)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#cc0000"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="TSI XOB siv tshuaj tiv thaiv kab mob yog tas tsi tau tso cai lug ntawm tug kws khu mob."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#cc0000" />
+        <TextView
+            android:text="TSI XOB faib tshuaj tiv thaiv kab mob nrug lwm twg tuab neeg los sis muab tej tshuaj ntawd lwm qho lug  kws tsis tau txo cai muag lug siv."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#cc0000"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="TSI XOB siv tshuaj tivb thaiv kaab mob vim yog koj nyob ze rua tug tuab neeg kws muaj mob."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#cc0000"
+            android:layout_marginTop="20dp"/>
+    </TableLayout>
+</ScrollView>
