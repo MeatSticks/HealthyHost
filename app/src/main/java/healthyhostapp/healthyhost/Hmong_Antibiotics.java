@@ -19,8 +19,11 @@ public class Hmong_Antibiotics extends AppCompatActivity implements View.OnClick
         setContentView(R.layout.hmong_antibiotics);
 
         //set up the buttons and the functionality
-        Button hmong_levaquin = (Button) findViewById(R.id.hmonglevaquin);
+        Button hmong_levaquin = (Button) findViewById(R.id.Hmong_Levaquin);
         hmong_levaquin.setOnClickListener(this); //this is for Antibiotics
+
+        Button hmong_antibiotic_erythromycin = (Button) findViewById(R.id.Hmong_Erythromycin);
+        hmong_antibiotic_erythromycin.setOnClickListener(this);
 
         /*Button poxycycline = (Button) findViewById(R.id.poxycycline);
         poxycycline.setOnClickListener(this); //this is for Antibiotics
@@ -61,9 +64,13 @@ public class Hmong_Antibiotics extends AppCompatActivity implements View.OnClick
 
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.hmonglevaquin:
+            case R.id.Hmong_Levaquin:
                 Intent intent = new Intent(Hmong_Antibiotics.this, Hmong_Levaquin.class);
                 startActivity(intent);
+                break;
+            case R.id.Hmong_Erythromycin:
+                Intent intent1 = new Intent(Hmong_Antibiotics.this,Hmong_Antibiotic_Erythromycin.class);
+                startActivity(intent1);
                 break;
 
             /*case R.id.poxycycline:
