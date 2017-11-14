@@ -50,7 +50,7 @@ public class hmongHomePage extends AppCompatActivity implements View.OnClickList
                 startActivity(intent5);
                 break;
             case R.id.button6: //this case actually represents what will be the settings page, no longer the language
-                Intent intent6 = new Intent(hmongHomePage.this, language.class);
+                Intent intent6 = new Intent(hmongHomePage.this, Hmong_Settings.class);
                 startActivity(intent6);
                 break;
 
