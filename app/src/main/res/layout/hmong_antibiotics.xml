@@ -94,7 +94,7 @@
                 android:layout_height="80dp"
                 android:text="Hmong Cephalexin"
                 android:layout_weight="0.20"
-                android:id="@+id/cephalexin"
+                android:id="@+id/Hmong_Cephalexin"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
