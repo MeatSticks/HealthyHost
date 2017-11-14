@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ILLNESSES-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--There can not be any more than one child to the ScrollView Parent, resulting in the LinearLayout-->
+        <!--Which has the ability to contain multiple child objects-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hmong Chlamydia"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--This is where the name of the page goes-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Description"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chlamydia is spread by vaginal and anal intercourse. Rarely, it is spread during oral sex or by touching your eye with your hand. It can also spread from a woman to her fetus during birth. Chlamydia is not passed through casual contact and usually has no symptoms. People, mostly women, are not aware if they have the infection."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Symptoms"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Symptoms - DO NOT CHANGE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Abdominal pain; abnormal vaginal discharge; bleeding between menstrual periods; low-grade fever; painful intercourse; pain or a burning feeling while urinatin; swelling inside the vagina or around the anus; the urge to urinate more than usual; vaginal bleeding after intercourse; and/or a yellowish discharge from the cervix that may have a strong smell. When men have symptoms, they may experience pain or a burning feeling while urinating, pus or watery or milky discharge from the penis, swollen or tender testicles, and/or swelling around the anus. In both women and men, chlamydia may cause the anus to itch and bleed. It can also result in a discharge and diarrhea. If chlamydia infects the eyes, it may cause redness, itching, and a discharge. If chlamydia infects the throat, it may cause soreness. Chlamydia symptoms may only appear in the morning and may be mild, especially for men. If you or your partner has any of the symptoms listed above, get checked by a health care provider. This is especially important if you are pregnant."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Treatment"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Treatment(s) - DO NOT CHANGE-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chlamydia can be easily cured with antibiotics."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Additional Information"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /><!--Additional Information - DO NOT CHANGE-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="https://www.cdc.gov/groupAstrep/index.html"
+                android:autoLink="web"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

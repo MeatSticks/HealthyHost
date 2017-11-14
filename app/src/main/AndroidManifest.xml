@@ -581,7 +581,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Spanish_language">
+        <activity android:name=".Spanish_Settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -653,7 +653,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Hmong_Antibiotics">
+        <activity android:name=".Hmong_Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Backgroundinfo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
