@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hmong Antibiotic Levaquin"
+                android:text="Ceftriaxone"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Description of said antiobiotic"
+                android:text="Yaam tshuaj siv lug d tiv thaiv kom kaab mob bacteria tsi xob luj taus, nwg siv lug khu tug kab mob kis lug ntawm kev sib deev, gonorrhea, mob raws daim npluag hlwb tau hau (meningitis), mob pob ntseg, mob ntsws hab mob ntawm dlaim tawv nqaj."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="List of uses"
+                android:text="Thoj plaab, mob taub hau, kiv taub hau hab tawm fws heev."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="http://www.drugs.com/alpha/a1.html"
+                android:text="https://www.nlm.nih.gov/medlineplus/druginfo/meds/a685032.html"
                 android:autoLink="web"
                 android:textStyle="bold"
                 android:textColor="#000000"

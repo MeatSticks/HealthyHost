@@ -597,7 +597,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Hmong_Levaquin">
+        <activity android:name=".Hmong_Antibiotic_Levaquin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -678,6 +678,70 @@
         </activity>
 
         <activity android:name=".Hmong_Antibiotic_Cephalexin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Doxycycline">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Amoxicillin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Azythromycin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Metronidazole">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Flucloxacillin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Ceftriaxone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Penecillin_G">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Hmong_Antibiotic_Ofloxacin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
