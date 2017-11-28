@@ -37,6 +37,9 @@ public class Hmong_Antibiotics extends AppCompatActivity implements View.OnClick
         Button hmong_antibiotic_azythromycin = (Button) findViewById(R.id.Hmong_Azithromycin);
         hmong_antibiotic_azythromycin.setOnClickListener(this);
 
+        Button hmong_antibiotic_metronidazole = (Button) findViewById(R.id.Hmong_Metronidazole);
+        hmong_antibiotic_metronidazole.setOnClickListener(this);
+
         Button hmong_antibiotic_flucloxacillin = (Button) findViewById(R.id.Hmong_Flucloxacillin);
         hmong_antibiotic_flucloxacillin.setOnClickListener(this);
 
