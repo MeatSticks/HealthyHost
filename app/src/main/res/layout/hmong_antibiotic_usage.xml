@@ -44,4 +44,5 @@
         android:alpha="0.80"
         android:textStyle="bold"
         android:textSize="40sp"/>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
 </LinearLayout>
