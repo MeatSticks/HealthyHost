@@ -18,8 +18,23 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
 
         //set up the buttons and the functionality
 
-        Button herpes = (Button) findViewById(R.id.Hmong_Type_2_Herpes);
-        herpes.setOnClickListener(this);
+        Button hmong_illness_herpes = (Button) findViewById(R.id.Hmong_Type_2_Herpes);
+        hmong_illness_herpes.setOnClickListener(this);
+
+        Button hmong_illness_chylamydia = (Button) findViewById(R.id.Hmong_Chlamydia);
+        hmong_illness_chylamydia.setOnClickListener(this);
+
+        Button hmong_illness_ear_infection = (Button) findViewById(R.id.Hmong_ear);
+        hmong_illness_ear_infection.setOnClickListener(this);
+
+        Button hmong_illness_h_pylori = (Button) findViewById(R.id.Hmong_Pylori);
+        hmong_illness_h_pylori.setOnClickListener(this);
+
+        Button hmong_illness_lyme_disease = (Button) findViewById(R.id.Hmong_Lyme_Disease);
+        hmong_illness_lyme_disease.setOnClickListener(this);
+
+        Button hmong_illness_mastitis = (Button) findViewById(R.id.Hmong_Mastitis);
+        hmong_illness_mastitis.setOnClickListener(this);
 
         /*Button mononucleosis = (Button) findViewById(R.id.Mono);
         mononucleosis.setOnClickListener(this);
@@ -62,8 +77,8 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v){
         switch(v.getId()){
 
-            case R.id.herpes:
-                Intent intent2 = new Intent(Hmong_Illnesses.this, herpes.class);
+            case R.id.Hmong_Type_2_Herpes:
+                Intent intent2 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Herpes.class);
                 startActivity(intent2);
                 break;
             /*case R.id.Mono:
@@ -99,31 +114,31 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
                 Intent intent10 = new Intent(commonIllnesses.this, uti.class);
                 startActivity(intent10);
                 break;
-
-            case R.id.clap:
-                Intent intent11 = new Intent(commonIllnesses.this, clap.class);
+            */
+            case R.id.Hmong_Chlamydia:
+                Intent intent11 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Chylamydia.class);
                 startActivity(intent11);
                 break;
 
-            case R.id.ear:
-                Intent intent12 = new Intent(commonIllnesses.this, ear.class);
+            case R.id.Hmong_ear:
+                Intent intent12 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Ear_Infection.class);
                 startActivity(intent12);
                 break;
 
-            case R.id.pylori:
-                Intent intent13 = new Intent(commonIllnesses.this, pylori.class);
+            case R.id.Hmong_Pylori:
+                Intent intent13 = new Intent(Hmong_Illnesses.this, Hmong_Illness_H_Pylori.class);
                 startActivity(intent13);
                 break;
 
-            case R.id.lyme:
-                Intent intent14 = new Intent(commonIllnesses.this, lyme.class);
+            case R.id.Hmong_Lyme_Disease:
+                Intent intent14 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Lyme_Disease.class);
                 startActivity(intent14);
                 break;
 
-            case R.id.mastitis:
-                Intent intent15 = new Intent(commonIllnesses.this, mastitis.class);
+            case R.id.Hmong_Mastitis:
+                Intent intent15 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Mastitis.class);
                 startActivity(intent15);
-                break;*/
+                break;
 
         }
     }

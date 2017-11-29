@@ -79,7 +79,7 @@
                 android:layout_height="80dp"
                 android:text="Hmong Lyme Disease"
                 android:layout_weight="0.20"
-                android:id="@+id/Hmong_Lyme"
+                android:id="@+id/Hmong_Lyme_Disease"
                 android:color="#66FF0000"
                 android:alpha="0.80"
                 android:textStyle="bold"
