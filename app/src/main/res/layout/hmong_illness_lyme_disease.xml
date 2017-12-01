@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Strep Throat"
+                android:text="Lyme Disease"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Description"
+                android:text="Kev pav qha"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Strep throat is a bacterial infection affecting the throat and the tonsils."
+                android:text="Yam kab mob no yog kis los ntawm cov tuv tom mos lwj lossis cov kauv uas muaj mob. Thaum muaj ib tug tuv tom tug mos lwj uas muaj mob es ho lo tau rau tus tib neeg lawm, qhov kab mob ntawd yuav kis rau tib neeg. "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Symptoms"
+                android:text="Muaj tsos mob xws li"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Sore throat, enlarged lymph nodes, pain while swallowing, swollen tonsils, fever, chills, malaise."
+                android:text="Mob lub mis, hnov no, nkees, ua kub ua no, xoo pob liab, txiv mis tawm kua yig, ua paug, los yog o."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Treatment"
+                android:text="Kev kho"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Antibiotics can be used to treat it."
+                android:text="Siv tshuaj tiv thaiv kab mob antibiotics. Noj tej tshuaj tsis muaj kuab pes tsawg los pab kom nyob taus."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Additional Information"
+                android:text="Lus Qha Ntxiv"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -121,5 +121,4 @@
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
-
 

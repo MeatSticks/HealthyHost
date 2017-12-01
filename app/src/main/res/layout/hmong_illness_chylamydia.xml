@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Hmong Chlamydia"
+                android:text="Chlamydia"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Description"
+                android:text="Kev pav qha"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Chlamydia is spread by vaginal and anal intercourse. Rarely, it is spread during oral sex or by touching your eye with your hand. It can also spread from a woman to her fetus during birth. Chlamydia is not passed through casual contact and usually has no symptoms. People, mostly women, are not aware if they have the infection."
+                android:text="Tshwm sim los ntawm kev sib deev tsis hais chaw mos los yog ntawm chaw tawm rooj. Tej thaum kuj yog kis los ntawm kev sib yaim thaum muaj kev ua niam txiv los yog muab tes kov qhov muag. Qee zaum cov pojniam uas xeeb menyuam, kuj kis tau mus rau nws tug menyuam rau lub caij uas nws los yug tug menyuam ntawd. Feem coob cov pojniam tsis paub yog lawv tau txais tug kab mob no lawm."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Symptoms"
+                android:text="Muaj tsos mob xws li"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Abdominal pain; abnormal vaginal discharge; bleeding between menstrual periods; low-grade fever; painful intercourse; pain or a burning feeling while urinatin; swelling inside the vagina or around the anus; the urge to urinate more than usual; vaginal bleeding after intercourse; and/or a yellowish discharge from the cervix that may have a strong smell. When men have symptoms, they may experience pain or a burning feeling while urinating, pus or watery or milky discharge from the penis, swollen or tender testicles, and/or swelling around the anus. In both women and men, chlamydia may cause the anus to itch and bleed. It can also result in a discharge and diarrhea. If chlamydia infects the eyes, it may cause redness, itching, and a discharge. If chlamydia infects the throat, it may cause soreness. Chlamydia symptoms may only appear in the morning and may be mild, especially for men. If you or your partner has any of the symptoms listed above, get checked by a health care provider. This is especially important if you are pregnant."
+                android:text="Mob plab; mob plaws zis; tshwm paj (pom muaj ntshav) ua ntej lub sijhawm coj khaub ncaws; ua npaws; hnov mob thaum muaj kev ua niam txiv; mob thaum tso zis thiab hnov mob kub lug; hauv tej chaw mos o lossis o rau ntawm qhov quav; hnov dim zis tshaj li txhua zaus, los yog zis tsw phem. Yog txiv neej muaj tug mob no lawm, kuj ua rau lawv mob plaws zis, ua paug los yog txia kua yig hauv txivneej qhov chaw mos los, noob qau o los yog qhov quav o. Nyob rau ntawm pojniam thiab txivneej, chlamydia yuav ua tau rau tej qhov quav khaus los yog los ntshav. Nwg kuj ua tau rau tib neeg thoj plab thiab tawm kua yig lossis ua paug. Thaum cov chlamydia kis tau rau qhov muag lawm, nws yuav liab, khaus, thiab liab muag. Thaum chlamydia kis tau rau yus lub caj pas lawm, nws yuav hnov mob. Chlamydia tsuas tshwm thaum sawv ntxov xwb, dhau ntawv lawm nws yuav mob me ntsi lawm xwb. Yog koj los yog koj tug txij nkawm muaj tej xwm xheej li hais no, yuav tsum tau mus cuag neb tug kws kho mob. Yog koj cev xeeb tub, nws yog ib yam tseem ceeb heev rau koj, koj thiaj paub pab koj tug kheej."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -73,7 +73,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Treatment"
+                android:text="Kev kho"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -84,7 +84,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Chlamydia can be easily cured with antibiotics."
+                android:text="Tsis tas yuav siv tshuaj antibiotics dabtsi."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Additional Information"
+                android:text="Lus Qha Ntxiv"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -117,6 +117,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

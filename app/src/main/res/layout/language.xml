@@ -61,8 +61,5 @@
             android:textSize="20sp"/>
 
         <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
-
-
-
     </TableLayout>
 </ScrollView>

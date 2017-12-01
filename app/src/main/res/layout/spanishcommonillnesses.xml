@@ -178,8 +178,7 @@
                 android:textSize="20sp"/>
 
 
-            <Button
-                android:layout_marginTop="10dp"
+            <Button android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:text="Coccidioidomicosis (Fiebre del Valle)"
@@ -190,21 +189,7 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </TableLayout>
     </ScrollView>
 </RelativeLayout>
