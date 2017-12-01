@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Healthy House, una agencia sin fines de lucro que entrena a intérpretes médicos profesionales, se dedica a abordar las disparidades de salud en las comunidades culturales del Valle del Centro de California, una de las áreas más diversas del país. Su programa Healthy Host, en colaboración con grupos de estudiantes de ingeniería y el Proyecto Protect de la Universidad de California, ha desarrollado esta aplicación para abordar el problema grave del mal uso y sobreuso de los antibióticos. Desde el descubrimiento de estos fármacos milagrosos, los médicos han dependido de antibióticos para curar muchas de las enfermedades comunes del público. Sin embargo, el sobreuso común de los antibióticos para curar infecciones virales, lo cual es inefectivo, ha creado una crisis de bacterias muy resistentes las cuales responden limitadamente o no responden a los antibióticos. Esto ha resultado en recetar antibióticos más fuertes y en cantidades más grandes agravando aún más el problema. Además, los antibióticos son mal utilizados con frecuencia. Por ejemplo, cuando pacientes no finalizan el tratamiento completo de antibióticos, la eficacia de la medicina es afectada. Adicionalmente, miembros de comunidades culturales con frecuencia obtienen los antibióticos a través de fuentes no reguladas o clandestinas. Esto contribuye al mal uso de antibióticos que son demasiado fuertes o inapropiados para las enfermedades siendo tratadas. Es con gran esperanza que esta aplicación espera fomentar entendimiento de la crisis grave de salud sobre la resistencia de los antibióticos y lo que se puede hacer para prevenirlo."
+                android:text="Healthy House, una agencia sin fines de lucro que entrena a intérpretes médicos profesionales, se dedica a abordar las disparidades de salud en las comunidades culturales del Valle del Centro de California, una de las áreas más diversas del país. "
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -36,6 +36,42 @@
                 android:paddingTop="20dp"
                 />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Su programa Healthy Host, en colaboración con grupos de estudiantes de ingeniería y el Proyecto Protect de la Universidad de California, ha desarrollado esta aplicación para abordar el problema grave del mal uso y sobreuso de los antibióticos. Desde el descubrimiento de estos fármacos milagrosos, los médicos han dependido de antibióticos para curar muchas de las enfermedades comunes del público."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sin embargo, el sobreuso común de los antibióticos para curar infecciones virales, lo cual es inefectivo, ha creado una crisis de bacterias muy resistentes las cuales responden limitadamente o no responden a los antibióticos. Esto ha resultado en recetar antibióticos más fuertes y en cantidades más grandes agravando aún más el problema. Además, los antibióticos son mal utilizados con frecuencia. Por ejemplo, cuando pacientes no finalizan el tratamiento completo de antibióticos, la eficacia de la medicina es afectada. Adicionalmente, miembros de comunidades culturales con frecuencia obtienen los antibióticos a través de fuentes no reguladas o clandestinas. Esto contribuye al mal uso de antibióticos que son demasiado fuertes o inapropiados para las enfermedades siendo tratadas."
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Es con gran esperanza que esta aplicación espera fomentar entendimiento de la crisis grave de salud sobre la resistencia de los antibióticos y lo que se puede hacer para prevenirlo."
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

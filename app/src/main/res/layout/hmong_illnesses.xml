@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="healthyhostapp.healthyhost.MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <!-- everything you already have -->
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Chlamydia"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Chlamydia"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Ear Infection"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Ear"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong H. Pylori"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Pylori"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Impetigo"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Impetigo"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Lyme Disease"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Lyme_Disease"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Mastitis"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Mastitis"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Mononucleosis"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Mononucleosis"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Necrotizing Fasciitis"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Necrotizing_Fascitis"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Respiratory Syncytial Virus (RSV)"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Respiratory_Syncytial_Virus"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Strep Throat"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Strep_Throat"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Type 2 Herpes"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Type_2_Herpes"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Urinary Tract Infection"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Urinary_Tract_Infection"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Hmong Valley Fever"
+                android:layout_weight="0.20"
+                android:id="@+id/Hmong_Valley_Fever"
+                android:color="#66FF0000"
+                android:alpha="0.80"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
+

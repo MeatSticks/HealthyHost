@@ -276,6 +276,8 @@
                 android:paddingRight="20dp"
                 android:paddingTop="20dp"
                 />
+
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

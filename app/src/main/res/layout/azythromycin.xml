@@ -101,6 +101,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

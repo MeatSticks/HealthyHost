@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:text="Nug koj tug kws khu mob seb tshuaj tiv thaiv kaab mob puas zoo (paab)  koj los sis koj tsev neeg tej kev mob."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#009A00" />
+
+        <TextView
+            android:text="Nug koj tug kws khu mob txug cov kaab mob bacteria kws muaj yeej rua cov  tshuaj tiv thaiv kab mob thiab seb koj tuaj yeem ua li cas thiaj li pab tiv thaiv kua nwg tsi txhob tso tshwm si ntxiv."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="Nug koj tug kws khu mob sib puas yog nwg muab cov tshuaj kws koj yuav tsum tau ntawd rau koj xwb."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:text="Nug koj tug kws khu mob seb tej tshuaj tiv thaiv nwg muab ntawv puas yog tej muaj zug kuas khu tau yug tug mob tsaws le has xwb."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textColor="#009A00" />
+        <TextView
+            android:text="Noj tshuaj tiv thaiv kab mob rua tej kaab mob bacterial infection  kws yaam kaab mob ntawd yeej tshuaj ntxuam xyuas  zoo zoo hab paub meej lawm hos tej  tshuaj tiv thaiv kaab mob ntawv yuav tsum yog kws khu mob sau ntawv yuav tshuaj raun yug xwb."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="Siv tej tshuaj kom raws le kws khu mob has (qha).  Noj tshuaj kom raws le qha hab raws caij xyoo le hais.  Yuav tsum noj tshuaj kom pub sij hawm raws le kws koj tug kws khu-mob teev ntseg.  Tsi ua raws le has lo ssis tseg tsi noj raws le has yuav thiv thaiv tsi tau kaab mob raws le kws khu-mob tau has.  Txawm tas koj xis neeg me ntsis lawm los noj kuam koj cov tshuaj taag!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#009A00"
+            android:layout_marginTop="20dp"/>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+    </TableLayout>
+</ScrollView>

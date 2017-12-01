@@ -575,7 +575,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="5. Patients First Medical Center (Atención Urgente)"
+                android:text="5. Patients First Medical Center"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -712,7 +712,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="6. Bloss Clinic Merced(Atención Urgente)"
+                android:text="6. Bloss Clinic Merced"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -849,7 +849,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="7. A Family's Urgent Care(Atención Urgente)"
+                android:text="7. A Family's Urgent Care"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -1254,6 +1254,7 @@
                 android:paddingRight="10dp"
                 />
 
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
 
         </LinearLayout>
     </ScrollView>

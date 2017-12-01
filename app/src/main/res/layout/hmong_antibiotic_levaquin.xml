@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--COPY AND PASTE ALL OF THIS CODE INTO THE XML YOU ARE CREATING IN: COMMON ANTIBIOTICS-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--There can not be any more than one child to the ScrollView Parent, resulting in the LinearLayout-->
+        <!--Which has the ability to contain multiple child objects-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Levaquin"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:textStyle="bold" /> <!--This is where the name of the page goes-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Description"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" /><!--Description Title Header-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Tshuaj siv lugku kaab mob (bacterial infection) nyob ntawm tawv nqaj, zaigzig, tsaum, hab lub tau kua xoo  (prostate), nwg kuj lug ntaus kaab mob xws le mob ntsws muaj dlej (pneumonia) hab mob ntsws (bronchitis)."
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" /><!--Description of the page in question-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Uses"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" /><!--Symptoms-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Yuav mob heev, tej qhi txhaa txhaav, ndloog, xaab, hab teeb meem thau yug mus ke (txaav los sis ua zug)"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" /><!--Symptoms of the page in question-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Additional Information"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" /><!--Additional Information-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="web"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="http://www.drugs.com/alpha/a1.html"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

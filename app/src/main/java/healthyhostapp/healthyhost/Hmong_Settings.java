@@ -10,17 +10,17 @@ import android.widget.Button;
  * Created by herda on 10/10/2017.
  */
 
-public class Spanish_language extends AppCompatActivity implements View.OnClickListener{
+public class Hmong_Settings extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.spanish_language);
+        setContentView(R.layout.hmong_settings);
 
         Button resources = (Button) findViewById(R.id.resources);
         resources.setOnClickListener(this); //this is for Antibiotics
 
-        Button spanishbackgroundinfo = (Button) findViewById(R.id.spanishbackgroundinfo);
-        spanishbackgroundinfo.setOnClickListener(this); //Illnesses
+        Button hmong_background_info = (Button) findViewById(R.id.hmong_background_info);
+        hmong_background_info.setOnClickListener(this); //Illnesses
 
         Button languages =(Button) findViewById(R.id.languages);
         languages.setOnClickListener(this);
@@ -29,15 +29,15 @@ public class Spanish_language extends AppCompatActivity implements View.OnClickL
     public void onClick(View v){
         switch(v.getId()){
             case R.id.resources:
-                Intent intent1 = new Intent(Spanish_language.this, resources.class);
+                Intent intent1 = new Intent(Hmong_Settings.this, resources.class);
                 startActivity(intent1);
                 break;
-            case R.id.spanishbackgroundinfo:
-                Intent intent2 = new Intent(Spanish_language.this, Spanish_Backgroundinfo.class);
+            case R.id.hmong_background_info:
+                Intent intent2 = new Intent(Hmong_Settings.this, Hmong_Backgroundinfo.class);
                 startActivity(intent2);
                 break;
             case R.id.languages:
-                Intent intent3 = new Intent(Spanish_language.this, LANGUAGES.class);
+                Intent intent3 = new Intent(Hmong_Settings.this, LANGUAGES.class);
                 startActivity(intent3);
                 break;
         }

@@ -189,20 +189,8 @@ tools:context="healthyhostapp.healthyhost.MainActivity">
             android:textStyle="bold"
             android:textSize="20sp"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </TableLayout>
-</ScrollView>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+        </TableLayout>
+    </ScrollView>
 </RelativeLayout>
 
