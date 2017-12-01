@@ -15,6 +15,6 @@ public class azythromycin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.azythromycin);
 
-        AudioPlayer audioPlayer = AudioPlayer.CreateAudioPlayer(this, RECORDING);
+        AudioPlayer.CreateAudioPlayer(this, RECORDING);
     }
 }

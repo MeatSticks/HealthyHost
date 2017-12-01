@@ -15,6 +15,6 @@ public class ceftriaxone extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ceftriaxone);
 
-        AudioPlayer audioPlayer = AudioPlayer.CreateAudioPlayer(this, RECORDING);
+        AudioPlayer.CreateAudioPlayer(this, RECORDING);
     }
 }

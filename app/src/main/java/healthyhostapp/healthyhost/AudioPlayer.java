@@ -53,8 +53,10 @@ public class AudioPlayer extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        // get audio player UI
         View view = inflater.inflate(R.layout.fragment_audio_player, container, false);
 
+        // set event handlers for audio player buttons
         Button play = (Button) view.findViewById(R.id.btnPlayAudio);
         play.setOnClickListener(btnClick);
         Button pause = (Button) view.findViewById(R.id.btnPauseAudio);
@@ -123,13 +125,4 @@ public class AudioPlayer extends Fragment {
             }
         }
     };
-
-    // release media player
-    public void releasePlayer() {
-        mediaPlayer.release();
-    }
-
-    // set the audio track that will be played
-    public void setTrack() {
-    }
 }
