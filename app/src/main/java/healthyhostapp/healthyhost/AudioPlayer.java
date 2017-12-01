@@ -25,16 +25,22 @@ public class AudioPlayer extends Fragment {
     }
 
     static public AudioPlayer CreateAudioPlayer(Context context, int audioFile) {
-        if(player == null) {
+        if(player == null)
             player = new AudioPlayer();
-            player.context = context;
-            player.audioFile = audioFile;
-            player.setupMediaPlayer();
-        }
+
+        player.context = context;
+        player.audioFile = audioFile;
+        player.setupMediaPlayer();
         return player;
     }
 
     private void setupMediaPlayer() {
+        // too many mediaPlayer objects will cause an error
+        // and there seems to be no straight forward manner to switch
+        // audio files being played so release the old media player
+        if(mediaPlayer != null)
+            mediaPlayer.release();
+
         // load the audio in /raw folder called moonlight
         mediaPlayer = MediaPlayer.create(player.context, player.audioFile);
         // loop the audio to play when it ends
