@@ -8,21 +8,27 @@ import android.media.MediaPlayer;
  */
 
 public class AudioPlayer {
+    private static AudioPlayer player;
     private Context context;
     private MediaPlayer mediaPlayer;
     private int audioFile;
 
     // TODO: should be a singleton
-    public AudioPlayer(Context context, int audioFile) {
+    private AudioPlayer(Context context, int audioFile) {
         this.context = context;
         this.audioFile = audioFile;
-
-        // TODO: check if the audio file is there
 
         // load the audio in /raw folder called moonlight
         mediaPlayer = MediaPlayer.create(this.context, audioFile);
         // loop the audio to play when it ends
         mediaPlayer.setLooping(true);
+    }
+
+    public AudioPlayer CreateAudioPlayer(Context context, int audioFile) {
+        if(player == null) {
+            player = new AudioPlayer(context, audioFile);
+        }
+        return player;
     }
 
     // inserts player interface fragment into the activity's UI
