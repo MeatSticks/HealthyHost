@@ -18,9 +18,9 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
 
         //set up the buttons and the functionality
 
-        Button herpes = (Button) findViewById(R.id.Hmong_Type_2_Herpes);
-        herpes.setOnClickListener(this);
 
+        Button hmong_illness_valleyfever = (Button) findViewById(R.id.Hmong_Valley_Fever);
+        hmong_illness_valleyfever.setOnClickListener(this);
         /*Button mononucleosis = (Button) findViewById(R.id.Mono);
         mononucleosis.setOnClickListener(this);
 
@@ -62,10 +62,7 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v){
         switch(v.getId()){
 
-            case R.id.herpes:
-                Intent intent2 = new Intent(Hmong_Illnesses.this, herpes.class);
-                startActivity(intent2);
-                break;
+
             /*case R.id.Mono:
                 Intent intent3 = new Intent(commonIllnesses.this, mononucleosis.class);
                 startActivity(intent3);
@@ -75,11 +72,14 @@ public class Hmong_Illnesses extends AppCompatActivity implements View.OnClickLi
                 startActivity(intent4);
                 break;
 
-            case R.id.ValleyFever:
-                Intent intent5 = new Intent(commonIllnesses.this, valley.class);
+                */
+
+            case R.id. Hmong_Valley_Fever:
+                Intent intent5 = new Intent(Hmong_Illnesses.this, Hmong_Illness_Valleyfever.class);
                 startActivity(intent5);
                 break;
 
+            /*
             case R.id.necro:
                 Intent intent6 = new Intent(commonIllnesses.this, necro.class);
                 startActivity(intent6);
