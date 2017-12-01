@@ -24,18 +24,19 @@ public class AudioPlayer extends Fragment {
         // Required empty public constructor
     }
 
-    public AudioPlayer CreateAudioPlayer(Context context, int audioFile) {
+    static public AudioPlayer CreateAudioPlayer(Context context, int audioFile) {
         if(player == null) {
             player = new AudioPlayer();
             player.context = context;
             player.audioFile = audioFile;
+            player.setupMediaPlayer();
         }
         return player;
     }
 
     private void setupMediaPlayer() {
         // load the audio in /raw folder called moonlight
-        mediaPlayer = MediaPlayer.create(context, audioFile);
+        mediaPlayer = MediaPlayer.create(player.context, player.audioFile);
         // loop the audio to play when it ends
         mediaPlayer.setLooping(true);
     }
@@ -43,7 +44,6 @@ public class AudioPlayer extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setupMediaPlayer();
     }
 
     @Override

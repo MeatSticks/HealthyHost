@@ -8,9 +8,13 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class azythromycin extends AppCompatActivity {
+    private int RECORDING = R.raw.moonlight;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.azythromycin);
+
+        AudioPlayer audioPlayer = AudioPlayer.CreateAudioPlayer(this, RECORDING);
     }
 }
