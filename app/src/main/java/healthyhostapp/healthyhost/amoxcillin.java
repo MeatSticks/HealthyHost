@@ -13,6 +13,7 @@ import android.widget.Button;
 public class amoxcillin extends AppCompatActivity {
 
     static private MediaPlayer mediaPlayer;
+    private int RECORDING = R.raw.moonlight;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,21 @@ public class amoxcillin extends AppCompatActivity {
         reset.setOnClickListener(btnClick);
 
         // load the audio in /raw folder called moonlight
-        mediaPlayer = MediaPlayer.create(this, R.raw.moonlight);
+        mediaPlayer = MediaPlayer.create(this, this.RECORDING);
         // loop the audio to play when it ends
+        mediaPlayer.setLooping(true);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mediaPlayer.release();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mediaPlayer = MediaPlayer.create(this, this.RECORDING);
         mediaPlayer.setLooping(true);
     }
 
