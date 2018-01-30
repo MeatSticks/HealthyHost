@@ -38,7 +38,7 @@ public class AudioPlayer extends Fragment {
         if(mediaPlayer != null)
             mediaPlayer.release();
 
-        // load the audio in /raw folder called moonlight
+        // load the audio in /raw folder called moonlight - hello
         mediaPlayer = MediaPlayer.create(context, audioFile);
         // loop the audio to play when it ends
         mediaPlayer.setLooping(true);
