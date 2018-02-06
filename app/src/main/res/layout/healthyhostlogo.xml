@@ -6,18 +6,21 @@ android:layout_height="match_parent"
 android:weightSum="1">
 
 
-<ImageView
-    android:id="@+id/image1"
-    android:layout_width="90dp"
-    android:layout_height="115dp"
-    android:layout_gravity="bottom"
-    android:scaleType="fitEnd"
-    android:adjustViewBounds="true"
-    android:text="bottom"
-    android:src="@drawable/healthy_house_logo"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentRight="true"
-    android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="90dp"
+        android:layout_height="115dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/healthy_house_logo"
+        android:text="bottom" />
 
 
 </RelativeLayout>
