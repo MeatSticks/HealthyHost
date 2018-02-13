@@ -8,4 +8,65 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name = "MedicalClinicsPage" page ="AppTheme" >
+        <item name= "android:textColor">@color/colorPrimaryDark</item>
+        <item name= "android:textSize">12sp</item>
+    </style>
+
+
+    <style name= "MedicalClinicsPage.TextViews.NameTitle" parent= "MedicalClinicsPage">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">match_parent</item>
+        <item name= "android:textStyle">bold</item>
+        <item name= "android:textSize">25sp</item>
+        <item name= "android:textColor">#000000</item>
+        <item name= "android:paddingLeft">10sp</item>
+        <item name= "android:paddingRight">10sp</item>
+        <item name= "android:paddingTop">5sp</item>
+
+    </style>
+
+    <style name= "MedicalClinicsPage.TextViews.Address" parent= "MedicalClinicsPage">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">match_parent</item>
+        <item name= "android:textStyle">bold</item>
+        <item name= "android:textSize">15sp</item>
+        <item name= "android:textColor">#000000</item>
+        <item name= "android:autoLink">map</item>
+        <item name= "android:paddingLeft">40sp</item>
+        <item name= "android:paddingRight">10sp</item>
+
+    </style>
+
+    <style name= "MedicalClinicsPage.TextViews.Phone" parent= "MedicalClinicsPage">
+    <item name= "android:layout_width">match_parent</item>
+    <item name= "android:layout_height">match_parent</item>
+    <item name= "android:textStyle">bold</item>
+    <item name= "android:textSize">15sp</item>
+    <item name= "android:textColor">#000000</item>
+        <item name= "android:autoLink">phone</item>
+    <item name= "android:paddingLeft">40sp</item>
+    <item name= "android:paddingRight">10sp</item>
+    </style>
+
+
+    <style name= "MedicalClinicsPage.TextViews.HoursTitle" parent= "MedicalClinicsPage">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">match_parent</item>
+        <item name= "android:textStyle">bold</item>
+        <item name= "android:textSize">20sp</item>
+        <item name= "android:textColor">#000000</item>
+        <item name= "android:paddingLeft">40sp</item>
+        <item name= "android:paddingRight">10sp</item>
+    </style>
+
+    <style name= "MedicalClinicsPage.TextViews.HoursList" parent= "MedicalClinicsPage">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">match_parent</item>
+        <item name= "android:textStyle">bold</item>
+        <item name= "android:textSize">15sp</item>
+        <item name= "android:textColor">#000000</item>
+        <item name= "android:paddingLeft">60sp</item>
+        <item name= "android:paddingRight">10sp</item>
+    </style>
 </resources>
