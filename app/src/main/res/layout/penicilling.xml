@@ -16,7 +16,7 @@
 
             <TextView
                 style="@style/AntibioticsPage.TextViews.Title"
-                android:text="Cephalexin"
+                android:text="Penicillin G"
 
                 /> <!--This is where the name of the page goes-->
             <TextView
@@ -26,7 +26,7 @@
                 /><!--Description Title Header-->
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="This is used to treat bacterial infections of the ear, respiratory system, skin, and urinary tract."
+                android:text="This is used to fight a variety of bacterial infections such as meningitis, gonorrhea, and syphilis."
 
                 /><!--Description of the page in question-->
             <TextView
@@ -36,7 +36,7 @@
                 /><!--Symptoms-->
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="Diarrhea, abdominal pain, chills and fever. "
+                android:text="List of skin rashes, diarrhea, stomach aches, headaches, and fevers. "
 
                 /><!--Symptoms of the page in question-->
 

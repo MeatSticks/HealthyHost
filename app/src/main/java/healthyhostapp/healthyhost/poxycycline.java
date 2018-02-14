@@ -11,6 +11,6 @@ public class poxycycline extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.poxycline);
+        setContentView(R.layout.doxycline);
     }
 }
