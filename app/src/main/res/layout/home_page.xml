@@ -24,24 +24,11 @@
         android:textStyle="bold"
         android:layout_marginBottom="12dp"/>
 
-    <LinearLayout
-        android:id="@+id/llLanguageBtns"
-        android:orientation="horizontal"
-        android:weightSum="3"
-        >
-        <Button
-            android:id="@+id/btnEnglish"
-            android:text="English"
-            style="@style/LanguageBtn.Selected"/>
-        <Button
-            android:id="@+id/btnHmong"
-            android:text="Hmong"
-            style="@style/LanguageBtn"/>
-        <Button
-            android:id="@+id/btnSpanish"
-            android:text="Español"
-            style="@style/LanguageBtn"/>
-    </LinearLayout>
+    <fragment android:name="healthyhostapp.healthyhost.LanguageBtns"
+        android:id="@+id/languageBtns"
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:layout_marginTop="10dp"

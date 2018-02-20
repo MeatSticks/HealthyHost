@@ -31,6 +31,8 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
 
         Button button6 = (Button) findViewById(R.id.button6);
         button6.setOnClickListener(this);
+
+        LanguageBtns.CreateLanguageBtns();
     }
     public void onClick(View v){
         switch(v.getId()){
@@ -54,10 +56,6 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
                 Intent intent6 = new Intent(homePage.this, language.class);
                 startActivity(intent6);
                 break;
-
-
-
-
         }
     }
 }
