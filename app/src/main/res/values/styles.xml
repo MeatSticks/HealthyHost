@@ -24,7 +24,8 @@
     </style>
 
     <style name="LanguageBtn.Selected" parent="LanguageBtn">
-        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#3333</item>
+        <item name="android:clickable">false</item>
     </style>
 
 </resources>
