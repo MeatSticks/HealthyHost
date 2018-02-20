@@ -46,11 +46,11 @@ public class LanguageBtns extends Fragment {
 
             button = btnEnglish;
 
-        } else if(context.getClass() == spanishHomePage.class) {
+        } else if(context.getClass() == hmongHomePage.class) {
 
             button = btnHmong;
 
-        } else if(context.getClass() == hmongHomePage.class) {
+        } else if(context.getClass() == spanishHomePage.class) {
 
             button = btnSpanish;
 
