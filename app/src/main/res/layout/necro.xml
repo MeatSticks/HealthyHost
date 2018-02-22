@@ -46,7 +46,7 @@
                 android:layout_height="match_parent"
                 android:text="Necrotizing Fasciitis (Flesh eating Bacteria)"
                 android:textAlignment="center"
-                android:textSize="40dp"
+                android:textSize="30dp"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:paddingLeft="10dp"
@@ -56,94 +56,70 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Description"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="An infection caused by bacteria that can destroy skin, fat, and tissue covering muscles within a very short time."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                android:textAppearance="@android:style/TextAppearance" /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Symptoms"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms - DO NOT CHANGE-->
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Symptoms - DO NOT CHANGE-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Fatigue, weakness, fever with chills and sweats, nausea,vomiting, dizziness, infrequent urination."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                android:textAppearance="@android:style/TextAppearance" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Treatment"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment(s) - DO NOT CHANGE-->
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Strong antibiotics delivered straight to veins, amputation of limbs may be necessary to prevent spread of the infection."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+                android:textAppearance="@android:style/TextAppearance" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
                 android:text="Additional Information"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Additional Information - DO NOT CHANGE-->
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.cdc.gov/groupAstrep/index.html"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
