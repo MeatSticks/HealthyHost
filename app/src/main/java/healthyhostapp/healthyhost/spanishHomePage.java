@@ -31,8 +31,7 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
         Button adjustes = (Button) findViewById(R.id.adjustes);
         adjustes.setOnClickListener(this);
 
-
-
+        LanguageBtns.CreateLanguageBtns();
     }
     public void onClick(View v) {
         switch (v.getId()) {

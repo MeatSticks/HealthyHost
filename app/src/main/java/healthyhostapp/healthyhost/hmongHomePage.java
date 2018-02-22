@@ -30,6 +30,8 @@ public class hmongHomePage extends AppCompatActivity implements View.OnClickList
 
         Button button6 = (Button) findViewById(R.id.button6);
         button6.setOnClickListener(this);
+
+        LanguageBtns.CreateLanguageBtns();
     }
     public void onClick(View v){
         switch(v.getId()){

@@ -13,7 +13,6 @@
         <item name= "android:textSize">12sp</item>
     </style>
 
-
     <style name= "MedicalClinicsPage.TextViews.NameTitle" parent= "MedicalClinicsPage">
         <item name= "android:layout_width">match_parent</item>
         <item name= "android:layout_height">match_parent</item>
@@ -49,7 +48,6 @@
     <item name= "android:paddingRight">10sp</item>
     </style>
 
-
     <style name= "MedicalClinicsPage.TextViews.HoursTitle" parent= "MedicalClinicsPage">
         <item name= "android:layout_width">match_parent</item>
         <item name= "android:layout_height">match_parent</item>
@@ -69,4 +67,20 @@
         <item name= "android:paddingLeft">60sp</item>
         <item name= "android:paddingRight">10sp</item>
     </style>
+
+    <style name="HealthyBtn">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:alpha">0.80</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="LanguageBtn" parent="HealthyBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
 </resources>
