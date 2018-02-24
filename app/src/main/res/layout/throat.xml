@@ -42,84 +42,44 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Title"
                 android:text="Strep Throat"
-                android:textAlignment="center"
-                android:textSize="30dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Description"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Strep throat is a bacterial infection affecting the throat and the tonsils."
-                android:textAppearance="@android:style/TextAppearance" /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                 /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Symptoms"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Symptoms - DO NOT CHANGE-->
+                 /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Sore throat, enlarged lymph nodes, pain while swallowing, swollen tonsils, fever, chills, malaise."
-                android:textAppearance="@android:style/TextAppearance" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                 /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Treatment"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Treatment(s) - DO NOT CHANGE-->
+                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Antibiotics can be used to treat it."
-                android:textAppearance="@android:style/TextAppearance" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+                 /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Additional Information"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Additional Information - DO NOT CHANGE-->
+                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

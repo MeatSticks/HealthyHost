@@ -42,84 +42,46 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Title"
                 android:text="Chlamydia"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /> <!--This is where the name of the page goes-->
+                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Description"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+           /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Chlamydia is spread by vaginal and anal intercourse. Rarely, it is spread during oral sex or by touching your eye with your hand. It can also spread from a woman to her fetus during birth. Chlamydia is not passed through casual contact and usually has no symptoms. People, mostly women, are not aware if they have the infection."
-                android:textAppearance="@android:style/TextAppearance" /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Symptoms"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Symptoms - DO NOT CHANGE-->
+                /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Abdominal pain; abnormal vaginal discharge; bleeding between menstrual periods; low-grade fever; painful intercourse; pain or a burning feeling while urinatin; swelling inside the vagina or around the anus; the urge to urinate more than usual; vaginal bleeding after intercourse; and/or a yellowish discharge from the cervix that may have a strong smell. When men have symptoms, they may experience pain or a burning feeling while urinating, pus or watery or milky discharge from the penis, swollen or tender testicles, and/or swelling around the anus. In both women and men, chlamydia may cause the anus to itch and bleed. It can also result in a discharge and diarrhea. If chlamydia infects the eyes, it may cause redness, itching, and a discharge. If chlamydia infects the throat, it may cause soreness. Chlamydia symptoms may only appear in the morning and may be mild, especially for men. If you or your partner has any of the symptoms listed above, get checked by a health care provider. This is especially important if you are pregnant."
-                android:textAppearance="@android:style/TextAppearance" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                 /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Treatment"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Treatment(s) - DO NOT CHANGE-->
+                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Chlamydia can be easily cured with antibiotics."
-                android:textAppearance="@android:style/TextAppearance" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+                 /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Additional Information"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" /><!--Additional Information - DO NOT CHANGE-->
+                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
-                android:textAppearance="@style/TextAppearance.AppCompat.Button" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
