@@ -42,108 +42,44 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Title"
                 android:text="Mastitis"
-                android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Description"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="This infection in the breast is typically acquired during the first six weeks of breast feeding. It can be treated by regularly pumping breast milk and using antibiotics. "
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                 /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Symptoms"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms - DO NOT CHANGE-->
+                 /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="Breast pain, chills, fatigue, fever, malaise, redness, nipple discharge, pus, swelling."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                 /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Treatment"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment(s) - DO NOT CHANGE-->
+                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="Antibiotics are required. Mild pain relievers can help with discomfort. "
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Additional Information"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Additional Information - DO NOT CHANGE-->
+                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
+                style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.cdc.gov/groupAstrep/index.html"
+                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
 
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
 
