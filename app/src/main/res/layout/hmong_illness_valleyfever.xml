@@ -15,108 +15,48 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Title"
                 android:text="Valley Fever"
-                android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Kev pav qha"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="INSERT DESCRIPTION"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Hom kab mob no tshwm sim los ntawm tej pwm uas nyob xyaw av, Coccidioides immitis. Cua yuav ntsawj tej noob lossis tej paj, thaum yus nqus tau rau hauv tej ntsws ces yuav rais mus ua ib tug mob"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
+                android:text="Muaj tsos mob xws li"
                 /><!--Symptoms - DO NOT CHANGE-->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Yuav hnov mob rau ntawm hauv siab, ib ce no, nkees, ua npaws, ua qoob lossis ua pob liab, yuav mlogg zoo li ua pa tsis nto thiab poob pound."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Kev kho mob"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment(s) - DO NOT CHANGE-->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="INSERT TREAMENTS IF AVAILABLE"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
+                android:text="Hom kab mob no tshwm sim los ntawm tej pwm uas nyob xyaw av, Coccidioides immitis. Cua yuav ntsawj tej noob lossis tej paj, thaum yus nqus tau rau hauv tej ntsws ces yuav rais mus ua ib tug mob"
+                /><!--Symptoms - DO NOT CHANGE-->
+
+            <TextView
+                style="@style/IllnessesPage.SubTitles"
+                android:text="Kev kho"
+                /><!--Treatment(s) - DO NOT CHANGE-->
+            <TextView
+                style="@style/IllnessesPage.Body"
+                android:text="Yuav hnov mob rau ntawm hauv siab, ib ce no, nkees, ua npaws, ua qoob lossis ua pob liab, yuav mlogg zoo li ua pa tsis nto thiab poob pound."
+                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+
+            <TextView
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Lus Qha Ntxiv"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
