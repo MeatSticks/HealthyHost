@@ -17,15 +17,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Mononucleosis"
-                android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
-                /> <!--This is where the name of the page goes-->
+                android:text="Herpes Tipo 2"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:textStyle="bold" /> <!--This is where the name of the page goes-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
