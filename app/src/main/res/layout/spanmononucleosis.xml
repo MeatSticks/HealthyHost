@@ -16,8 +16,9 @@
 
             <TextView
                 style="@style/IllnessesPage.Title"
-                android:text="Herpes Tipo 2"
+                android:text="Mononucleosis"
                 /> <!--This is where the name of the page goes-->
+
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Description"
@@ -53,6 +54,7 @@
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

@@ -16,8 +16,9 @@
 
             <TextView
                 style="@style/IllnessesPage.Title"
-                android:text="Mononucleosis"
+                android:text="Herpes Tipo 2"
                 /> <!--This is where the name of the page goes-->
+
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Descripción"
