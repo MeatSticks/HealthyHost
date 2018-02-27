@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Leo Alonso Cabrera on 2/6/2017.
  */
 
-public class poxycycline extends AppCompatActivity {
+public class doxycycline extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

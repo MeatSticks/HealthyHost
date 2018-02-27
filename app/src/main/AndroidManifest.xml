@@ -90,7 +90,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".poxycycline">
+        <activity android:name=".doxycycline">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -195,7 +195,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".gpill">
+        <activity android:name=".penicilling">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
