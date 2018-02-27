@@ -15,107 +15,43 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Title"
                 android:text="Clamidia"
-                android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Descripción"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="La clamidia se trasmite por el sexo vaginal y anal. Raramente se trasmite durante el sexo oral o al tocarse los ojos con la mano. También se puede transmitir de la mujer a su feto durante el parto. La clamidia no se trasmite a través de un contacto casual y normalmente no hay síntomas. Las personas, en su mayoría mujeres, no están conscientes de tener la infección."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Síntoma"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="Los síntomas para las mujeres podrían incluir: dolor abdominal, flujo vaginal anormal, sangrado entre periodos menstruales, fiebre baja, coito doloroso, dolor o sensación de ardor al orinar, inflamación dentro de la vagina o alrededor del ano, una urgencia de orinar más de lo normal, sangrado vaginal después del coito y/o una secreción amarillenta del cuello uterino que podría tener un olor fuerte. Cuando los hombres tienen síntomas, podrían sentir dolor o ardor al orinar, tener pus o un flujo acuoso o lechoso del pene, testículos inflamados o sensibles, y/o inflamación alrededor del ano. En mujeres y hombres, la clamidia puede causar que el ano tenga comezón o sangre. También puede resultar en un flujo y diarrea. Si la clamidia infecta  los ojos, podría causar enrojecimiento, comezón, y secreción. Si la clamidia infecta la garganta, podría causar dolor de garganta. Los síntomas de la clamidia podrían aparecer solo por la mañana y podrían ser leves, especialmente en los hombres. Si Ud. o su pareja tiene cualquier síntoma enumerado anteriormente, consulte a un profesional de salud. Esto es especialmente importante si está embarazada. "
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Tratamiento"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="Se trata con antibióticos."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Información Adicional"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>

@@ -43,99 +43,44 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Title"
                 android:text="Lyme Disease"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="40dp"
-                android:textStyle="bold" /> <!--This is where the name of the page goes-->
+                /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Description"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
+                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="This systemic illness caused by bacteria is typically transmitted by infected deer ticks.  When a tick bites a person, the bacteria spreads"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                 /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Symptoms"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Symptoms - DO NOT CHANGE-->
+                /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="Infection can result in malaise, fever, headache, fatigue, muscle pain, as well as something called the bull's eye rash. If untreated, the disease may cause arthritis and affect the heart and central nervous system."
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                 /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Treatment"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Treatment(s) - DO NOT CHANGE-->
+                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.Body"
                 android:text="It is treated with antibiotics."
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+              /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Additional Information"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Additional Information - DO NOT CHANGE-->
+                /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+               style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
 
             <include
                 layout="@layout/healthyhostlogo"
