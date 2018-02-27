@@ -16,7 +16,7 @@
 
             <TextView
                 style="@style/AntibioticsPage.TextViews.Title"
-                android:text="Erythromycin"
+                android:text="Doxycycline"
 
                 /> <!--This is where the name of the page goes-->
             <TextView
@@ -26,7 +26,7 @@
                 /><!--Description Title Header-->
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="This antibiotic is used to slow the growth of bacteria or completely exterminate sensitive bacteria."
+                android:text="This treats bacteria that causes acne, intestinal infections, eye infections, urinary tract infections, and bumps."
 
                 /><!--Description of the page in question-->
             <TextView
@@ -36,7 +36,7 @@
                 /><!--Symptoms-->
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="Fever, skin rashes, severe stomach pain and vomiting"
+                android:text="Coughing, diarrhea, dark urine, joint/muscle pain, headaches and dizziness."
 
                 /><!--Symptoms of the page in question-->
 
