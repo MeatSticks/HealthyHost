@@ -17,6 +17,8 @@
             <TextView
                 style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Penicillin G"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
 
                 /> <!--This is where the name of the page goes-->
             <TextView
