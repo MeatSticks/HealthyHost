@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
  * Created by Leo Alonso Cabrera on 2/9/2017.
  */
 
-public class gpill extends AppCompatActivity {
+public class penicilling extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gpill);
+        setContentView(R.layout.penicilling);
     }
 }

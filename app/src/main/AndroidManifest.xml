@@ -78,9 +78,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".poxycycline">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+
+        <activity android:name=".doxycycline">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -169,7 +175,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".gpill">
+
+        <activity android:name=".penicilling">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -67,7 +67,7 @@ public class commonAntibiotics extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.poxycycline:
-                Intent intent1 = new Intent(commonAntibiotics.this, poxycycline.class);
+                Intent intent1 = new Intent(commonAntibiotics.this, doxycycline.class);
                 startActivity(intent1);
                 break;
 
@@ -107,7 +107,7 @@ public class commonAntibiotics extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.gpill:
-                Intent intent9 = new Intent(commonAntibiotics.this, gpill.class);
+                Intent intent9 = new Intent(commonAntibiotics.this, penicilling.class);
                 startActivity(intent9);
                 break;
 
