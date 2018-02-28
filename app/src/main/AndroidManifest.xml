@@ -15,8 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +22,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".levaquin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +29,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".commonAntibiotics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +36,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".commonIllnesses">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +43,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".dos_donts">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,7 +50,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".faqs">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,7 +57,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".localClinics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,7 +64,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".resources">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -81,7 +71,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".dont">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -99,7 +88,9 @@
     </activity>
 
 
-
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".dos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -107,15 +98,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".amoxcillin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-    <activity android:name=".amoxcillin">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".azythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -123,7 +112,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".metronidazole">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -131,7 +119,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".erythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -139,7 +126,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".herpes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -147,7 +133,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".mononucleosis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -155,7 +140,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".impetigo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -163,7 +147,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".valley">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -171,7 +154,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".cephalexin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -179,7 +161,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".flucloxacillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -196,13 +177,13 @@
         </activity>
 
         <activity android:name=".penicilling">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ofloxacin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -210,7 +191,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".necro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -218,7 +198,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".rsv">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -226,7 +205,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".throat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -234,7 +212,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".uti">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -242,7 +219,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".clap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -250,7 +226,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ear">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -258,15 +233,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".pylori">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
-
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".lyme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -274,7 +247,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".mastitis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -282,14 +254,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".language">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".LANGUAGES">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -297,7 +268,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanishHomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -305,7 +275,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanishCommonAntibiotics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -313,7 +282,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanishCommonIllnesses">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -321,7 +289,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanherpes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -329,7 +296,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanmononucleosis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -337,15 +303,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanimpetigo">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
-
         <activity android:name=".spanvalley">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -353,7 +317,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spannecro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -361,7 +324,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanrsv">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -369,7 +331,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanthroat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -377,7 +338,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanuti">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -385,7 +345,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanclap">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -393,7 +352,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanear">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -401,7 +359,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanlyme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -409,7 +366,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanmastitis">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -417,7 +373,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanpylori">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -425,7 +380,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanlevaquin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -433,7 +387,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spandoxy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -441,7 +394,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanamoxcillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -449,7 +401,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanazythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -457,7 +408,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanmetronidazole">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -465,7 +415,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanerythomycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -473,7 +422,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spancephalexin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -481,7 +429,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanflucloxacillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -489,7 +436,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanceftriaxone">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -497,7 +443,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spangpill">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -505,7 +450,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanofloxacin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -513,7 +457,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".spanlocal_clinics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -521,7 +464,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Spanish_Faq">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -529,7 +471,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".hmongHomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -537,7 +478,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".backgroundinfo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -545,8 +485,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Spanish_Antibiotic_Usage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -554,17 +492,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Spanish_Backgroundinfo">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".Spanish_Antibiotic_Improper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -572,7 +506,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Spanish_Antibiotic_Proper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -580,7 +513,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Spanish_Settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -588,7 +520,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -596,7 +527,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Levaquin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -604,7 +534,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illnesses">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -612,7 +541,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Faq">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -620,7 +548,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Local_Clinics">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -628,7 +555,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Usage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -636,7 +562,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Improper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -644,7 +569,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Proper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -652,7 +576,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -660,7 +583,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Backgroundinfo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -668,7 +590,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Erythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -676,7 +597,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Cephalexin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -684,7 +604,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Doxycycline">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -692,7 +611,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Amoxicillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -700,7 +618,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Azythromycin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -708,7 +625,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Metronidazole">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -716,7 +632,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Flucloxacillin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -724,7 +639,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Ceftriaxone">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -732,7 +646,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Penecillin_G">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -740,7 +653,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Antibiotic_Ofloxacin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -748,7 +660,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Valleyfever">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -756,7 +667,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Chylamydia">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -764,7 +674,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Herpes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -772,7 +681,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Ear_Infection">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -780,7 +688,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_H_Pylori">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -788,7 +695,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Lyme_Disease">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -796,17 +702,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Hmong_Illness_Mastitis">
->>>>>>> 5f273e7f44e45db936ade409be8fee43b3da34eb
+            >>>>>>> 5f273e7f44e45db936ade409be8fee43b3da34eb
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".Hmong_Illness_Impetigo" />
+        <activity android:name=".Hmong_Illness_Mononucleosis" />
+        <activity android:name=".Hmog_Illness_Necro" />
+        <activity android:name=".Hmong_Illness_rsv" />
+        <activity android:name=".Hmong_Illness_throat" />
+        <activity android:name=".Hmong_Illness_uti"></activity>
     </application>
-
 
 </manifest>
