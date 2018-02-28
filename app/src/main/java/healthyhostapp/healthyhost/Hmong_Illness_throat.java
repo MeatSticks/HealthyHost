@@ -8,6 +8,6 @@ public class Hmong_Illness_throat extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hmong__illness_throat);
+        setContentView(R.layout.hmong_illness_throat);
     }
 }
