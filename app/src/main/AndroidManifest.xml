@@ -704,7 +704,7 @@
         </activity>
         <activity android:name=".Hmong_Illness_Impetigo" />
         <activity android:name=".Hmong_Illness_Mononucleosis" />
-        <activity android:name=".Hmog_Illness_Necro" />
+        <activity android:name=".Hmong_Illness_Necro" />
         <activity android:name=".Hmong_Illness_rsv" />
         <activity android:name=".Hmong_Illness_throat" />
         <activity android:name=".Hmong_Illness_uti"></activity>
