@@ -1,9 +1,9 @@
 package healthyhostapp.healthyhost;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class Hmong_Illness_Impetigo extends Activity {
+public class Hmong_Illness_Impetigo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
