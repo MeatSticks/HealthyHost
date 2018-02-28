@@ -15,107 +15,40 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Mastitis"
-                android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /> <!--This is where the name of the page goes-->
+                style="@style/IllnessesPage.Title"
+                android:layout_height="wrap_content"
+                android:text="Necrotizing Fasciitis (kab mob noj yus tej nqaij tawv)" /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Kev pav qha"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Yam mob hu ua mastitis no tshwm sim tau rau ntawm pojniam lub mis rau lub caij uas nws pub mis rau nws tug menyuam noj thawj thawj 6 lub lim piam ntawd. Kev pab tau yog nqus cov kua mis tawm thiab siv tshuaj antibiotics los tiv thaiv."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                style="@style/IllnessesPage.Body"
+                android:text="Ib yam kab mob uas yog Bacterial Infections, kis rau ntawm tej daim tawv nqaj, tej nqaij rog, thiab tej leeg yam sai heev. " /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Muaj tsos mob xws li"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Symptoms - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Mob lub mis, hnov no, nkees, ua kub ua no, xoo pob liab, txiv mis tawm kua yig, ua paug, los yog o."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                style="@style/IllnessesPage.Body"
+                android:text="Nkees, tsis muaj zog, ua npaws thiab ua daus no, tawm hws, xeev siab, xeev ntuav, kiv taub hau, los yog tso zis heev heev" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Kev kho"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Kev pab tau yog nqus cov kua mis tawm thiab siv tshuaj antibiotics los tiv thaiv."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+                style="@style/IllnessesPage.Body"
+                android:text="Nkaug tshuaj tiv thaiv muaj zog antibiotics mus rau ntawm tej leeg, txiav tes taw tawm kom tsis txob kis tau mus rau lwm qhov chaw" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.SubTitles"
                 android:text="Lus Qha Ntxiv"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/IllnessesPage.Body"
                 android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
