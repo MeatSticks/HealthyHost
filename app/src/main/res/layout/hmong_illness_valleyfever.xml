@@ -24,8 +24,7 @@
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="INSERT DESCRIPTION"
-                /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                android:text="Hom kab mob no tshwm sim los ntawm tej pwm uas nyob xyaw av, Coccidioides immitis. Cua yuav ntsawj tej noob lossis tej paj, thaum yus nqus tau rau hauv tej ntsws ces yuav rais mus ua ib tug mob " /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Muaj tsos mob xws li"
@@ -33,8 +32,7 @@
 
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="Hom kab mob no tshwm sim los ntawm tej pwm uas nyob xyaw av, Coccidioides immitis. Cua yuav ntsawj tej noob lossis tej paj, thaum yus nqus tau rau hauv tej ntsws ces yuav rais mus ua ib tug mob"
-                /><!--Symptoms - DO NOT CHANGE-->
+                android:text="Yuav hnov mob rau ntawm hauv siab, ib ce no, nkees, ua npaws, ua qoob lossis ua pob liab, yuav mlogg zoo li ua pa tsis nto thiab poob pound." /><!--Symptoms - DO NOT CHANGE-->
 
             <TextView
                 style="@style/IllnessesPage.SubTitles"
@@ -42,8 +40,7 @@
                 /><!--Treatment(s) - DO NOT CHANGE-->
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="Yuav hnov mob rau ntawm hauv siab, ib ce no, nkees, ua npaws, ua qoob lossis ua pob liab, yuav mlogg zoo li ua pa tsis nto thiab poob pound."
-                /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                android:text="Muaj tshuaj pab cheem los yog tiv thaiv tug mob no. Tsis tas yuav siv tshuaj antibiotics dabtsi." /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
 
             <TextView
                 style="@style/IllnessesPage.SubTitles"
