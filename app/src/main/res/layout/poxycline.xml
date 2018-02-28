@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Flucloxacillin"
+                android:text="Doxycycline"
                 android:textAlignment="center"
                 android:textSize="40dp"
                 android:textStyle="bold"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Used to treat ear, nose and throat infections, it also is used for tonsillitis and respiratory infections such as pneumonia."
+                android:text="This treats bacteria that causes acne, intestinal infections, eye infections, urinary tract infections, and bumps."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Skin rash, muscle/joint pain, liver problems and fever."
+                android:text="Coughing, diarrhea, dark urine, joint/muscle pain, headaches and dizziness."
                 android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="20dp"
