@@ -12,5 +12,7 @@ public class cephalexin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cephalexin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_ceftriaxone);
+
     }
 }
