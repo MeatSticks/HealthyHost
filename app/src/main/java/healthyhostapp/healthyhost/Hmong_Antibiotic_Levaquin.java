@@ -12,5 +12,7 @@ public class Hmong_Antibiotic_Levaquin extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_levaquin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antibio1);
+
     }
 }
