@@ -19,6 +19,6 @@ public class clap extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.clap);
         AudioPlayer.CreateAudioPlayer(this, R.raw.english_chlamydia);
-
+    }
 }
 
