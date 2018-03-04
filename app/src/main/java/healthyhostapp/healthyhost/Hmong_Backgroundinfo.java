@@ -12,5 +12,6 @@ public class Hmong_Backgroundinfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_backgroundinfo);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_bankground5_absolute);
     }
 }
