@@ -12,5 +12,7 @@ public class poxycycline extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.poxycline);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antibio6);
+
     }
 }

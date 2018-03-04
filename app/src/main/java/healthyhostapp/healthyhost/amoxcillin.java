@@ -15,6 +15,7 @@ public class amoxcillin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.amoxcillin);
 
-        AudioPlayer.CreateAudioPlayer(this, RECORDING);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antibio2);
+
     }
 }

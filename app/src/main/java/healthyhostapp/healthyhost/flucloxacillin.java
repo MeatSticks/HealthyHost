@@ -12,5 +12,7 @@ public class flucloxacillin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.flucloxacillin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antibio8);
+
     }
 }

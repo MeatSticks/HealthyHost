@@ -14,32 +14,13 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <fragment android:name="healthyhostapp.healthyhost.AudioPlayer"
+                android:id="@+id/audioPlayer"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3">
-                <Button
-                    android:id="@+id/btnPlayAudio"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/play"/>
+                android:layout_height="wrap_content" />
 
-                <Button
-                    android:id="@+id/btnPauseAudio"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/pause"/>
 
-                <Button
-                    android:id="@+id/btnResetAudio"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/reset"/>
-            </LinearLayout>
 
             <TextView
                 style="@style/IllnessesPage.Title"
