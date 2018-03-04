@@ -17,26 +17,28 @@
             <TextView
                 style="@style/IllnessesPage.Title"
                 android:layout_height="wrap_content"
-                android:text="Urinary Tract Infection: Txoj hlab zis (urethra)" /> <!--This is where the name of the page goes-->
+                android:text="Strep Throat" /> <!--This is where the name of the page goes-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Kev pav qha"
                 /><!--Description Title Header - DO NOT CHANGE ANY OF THE CODE HERE-->
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="Txoj hlab zis uas cov zis los rau ntawm lub zais zis tawm ntawm lub cev-nws nyob ze ntawm qhov quav (anus). Cov kab mob uas nyob ntawm txoj nyhuv loj, xws le E. coli, yuav nkag tau yooj yim rau ntawm lub qhov quav mus rau ntawm txoj hlab zis. Dlau ntawd lawm, nws yuav nkag mus rau ntawm lub zais zis, yog hais tias tsis kho tug mob no, nws yuav ua mob mus rau ntaum ob lub raum. Poj niam yog cov uas muaj tau yam mob no zoo yim dua vim lawv txoj hlab zis luv dua. Vim li no, tug kab mob thiaj li mus rau lub zais zis sai.  Kev ua niam txiv lossis sib deev, los yeej ua tau muaj kab mob bacteria no rau ntawm txoj hlab zis thiab." /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
+                android:text="Strep throat yog ib yam kab mob bacterial infection nyob ntawm caj pas thiab tug nrhu" /><!--Description of the page in question - CHANGE THE DESCRIPTION OF VIRUS-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Muaj tsos mob xws li"
                 /><!--Symptoms - DO NOT CHANGE-->
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="Yog xav paub seb puas yog UTI, yuav tau saib tej kev mob tswm sim raws li ntawm no: thaum tso zis, hnov kub lug, txawm tso zis tag lawm los yeej tseem zoo li yuav rov tso zis dua, hnov raub qaum thiab plab mog mob; cov zis dub dub thiab tsw pheem lossis tsw tau tug ntxhiab txawv txawv; hnov nkees lossis ib ce tshee tshee; ua npaws lossis hnov ib ce no no (Qhov no qhia tau hais tias tej kab mob kis mus txog koj ob lub raum lawm). " /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
+                android:text="Mob qa, tej qhog caj dab o, mob thaum nqos quab ncaug, tug nrhu o, ua npaw, no ib ce, lossis tsis xis neej" /><!--Symptoms of the page in question - CHANGE THE SYMPTOMS OF VIRUS-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Kev kho"
                 /><!--Treatment(s) - DO NOT CHANGE-->
-            <TextView style="@style/IllnessesPage.Body" /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
+            <TextView
+                style="@style/IllnessesPage.Body"
+                android:text="Siv antibiotics los pab." /><!--Treatment of the page in question - CHANGE TO REFLECT THE TREATMENT OF VIRUS-->
 
             <TextView
                 style="@style/IllnessesPage.SubTitles"
