@@ -17,6 +17,7 @@
             <TextView
                 style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Metronidazole"
+                android:textAlignment="center"
 
                 /> <!--This is where the name of the page goes-->
             <TextView

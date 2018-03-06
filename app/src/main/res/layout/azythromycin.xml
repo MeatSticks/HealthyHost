@@ -28,6 +28,7 @@
             <TextView
                 style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Description"
+                android:textAlignment="center"
 
                 /><!--Description Title Header-->
             <TextView
