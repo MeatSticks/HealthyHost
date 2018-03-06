@@ -6,10 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by herda on 11/16/2017.
  */
+
 public class Hmong_Antibiotic_Doxycycline extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_doxycycline);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_doxycycline);
     }
 }

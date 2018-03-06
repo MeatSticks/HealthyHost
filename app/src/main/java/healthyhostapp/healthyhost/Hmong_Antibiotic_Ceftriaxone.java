@@ -12,5 +12,6 @@ public class Hmong_Antibiotic_Ceftriaxone extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_ceftriaxone);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_ceftriaxone);
     }
 }
