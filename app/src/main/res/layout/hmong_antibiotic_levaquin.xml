@@ -3,7 +3,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -15,6 +14,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <fragment android:name="healthyhostapp.healthyhost.AudioPlayer"
+                android:id="@+id/audioPlayer"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -25,7 +30,8 @@
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="40dp"
-                android:textStyle="bold" /> <!--This is where the name of the page goes-->
+                android:textStyle="bold"
+                /> <!--This is where the name of the page goes-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
