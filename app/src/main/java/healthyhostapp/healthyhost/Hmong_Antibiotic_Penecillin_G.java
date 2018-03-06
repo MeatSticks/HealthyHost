@@ -12,5 +12,6 @@ public class Hmong_Antibiotic_Penecillin_G extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_penecillin_g);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.moonlight);
     }
 }
