@@ -32,6 +32,9 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
         Button button6 = (Button) findViewById(R.id.button6);
         button6.setOnClickListener(this);
 
+        Button buttontitleVI = (Button) findViewById(R.id.buttontitleVI);
+        buttontitleVI.setOnClickListener(this);
+
         LanguageBtns.CreateLanguageBtns();
     }
     public void onClick(View v){
@@ -55,6 +58,11 @@ public class homePage extends AppCompatActivity implements View.OnClickListener 
             case R.id.button6: //this case actually represents what will be the settings page, no longer the language
                 Intent intent6 = new Intent(homePage.this, language.class);
                 startActivity(intent6);
+                break;
+
+            case R.id.buttontitleVI: //this case actually represents what will be the settings page, no longer the language
+                Intent intenttitlevi = new Intent(homePage.this, title6_page.class);
+                startActivity(intenttitlevi);
                 break;
         }
     }
