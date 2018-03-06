@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class Hmong_Antibiotic_Ceftriaxone extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
