@@ -1,4 +1,5 @@
 package healthyhostapp.healthyhost;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -13,5 +14,6 @@ public class Hmong_Antibiotic_Erythromycin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_erythromycin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_erythromycin);
     }
 }
