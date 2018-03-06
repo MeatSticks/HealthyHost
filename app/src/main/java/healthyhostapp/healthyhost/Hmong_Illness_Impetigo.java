@@ -9,5 +9,6 @@ public class Hmong_Illness_Impetigo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_illness_impetigo);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_impetigo);
     }
 }

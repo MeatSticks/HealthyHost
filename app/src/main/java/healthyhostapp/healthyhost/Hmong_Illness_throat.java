@@ -9,5 +9,6 @@ public class Hmong_Illness_throat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_illness_throat);
+        AudioPlayer.CreateAudioPlayer(this,R.raw.hmong_strepthroat);
     }
 }
