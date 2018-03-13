@@ -13,5 +13,6 @@ public class spanear extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanear);
+        AudioPlayer.CreateAudioPlayer(this R.raw.spanish__ear___mono)
     }
 }

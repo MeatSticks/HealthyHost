@@ -1,6 +1,7 @@
 package healthyhostapp.healthyhost;
 
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 
 /**
@@ -11,5 +12,6 @@ public class spanimpetigo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanimpetigo);
+        AudioPlayer.CreateAudioPlayer(this R.raw.spanish_impetigo);
     }
 }
