@@ -23,8 +23,7 @@
 
             <TextView
                 style="@style/IllnessesPage.Title"
-                android:text="Valley Fever"
-                /> <!--This is where the name of the page goes-->
+                android:text="hav kub taub hau" /> <!--This is where the name of the page goes-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Kev pav qha"

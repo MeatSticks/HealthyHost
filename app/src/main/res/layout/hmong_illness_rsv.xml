@@ -17,7 +17,7 @@
             <TextView
                 style="@style/IllnessesPage.Title"
                 android:layout_height="wrap_content"
-                android:text="Respiratory Syncytial Virus (RSV)" /> <!--This is where the name of the page goes-->
+                android:text="kab mob ua pa kab mob (RSV)" /> <!--This is where the name of the page goes-->
             <TextView
                 style="@style/IllnessesPage.SubTitles"
                 android:text="Kev pav qha"
