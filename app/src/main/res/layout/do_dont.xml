@@ -20,17 +20,17 @@
         android:textStyle="bold" />
 
     <Button
-        android:layout_marginTop="10dp"
+        android:id="@+id/dos"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Improper Usage"
+        android:layout_marginTop="10dp"
         android:layout_weight="0.20"
-        android:id="@+id/dos"
-        android:background="#FF9898"
-        android:textColor="@android:color/black"
         android:alpha="0.80"
-        android:textStyle="bold"
-        android:textSize="40sp"/>
+        android:background="#FF9898"
+        android:text="Improper Usage"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_marginTop="10dp"
