@@ -12,5 +12,5 @@ public class spanclap extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanclap);
-        AudioPlayer.CreateAudioPlayer(this R.raw.moonlight);
+        AudioPlayer.CreateAudioPlayer(this R.raw.spanish_clap);
     }
