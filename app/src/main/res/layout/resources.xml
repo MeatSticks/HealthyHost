@@ -2,36 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-<TextView
 
-    <TextView
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:autoLink="web"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="20dp"
-        android:text="www.cdc.gov
-
-    http://www.bpac.org.nz/Supplement/2013/July/antibiotics-guide.aspx#ear-nose-throat-section
-
-    http://www.emedicinehealth.com/antibiotics/page2_em.htm
-
-    http://health.mo.gov/safety/antibioticresistance/
-
-    https://www.webmd.com/a-to-z-guides/bacterial-and-viral-infections
-
-    http://www.livestrong.com/article/84796-bacteria-infect/
-
-    http://www.emedicinehealth.com/drug-ofloxacin/article_em.htm#whatis
-
-    https://www.nlm.nih.gov/medlineplus/druginfo/meds/a685032.html
-
-    http://www.drugs.com/alpha/a1.html
-
-    http://www.cdc.gov/non-polio-enterovirus/about/EV-D68.html#
-
-    http://www.cdc.gov/non-polio-enterovirus/about/ev68-infographic.html#text "
-        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Inverse" />
+        android:layout_height="wrap_content"
+        android:id="@+id/resourcesURLs"
+        >
+    </ListView>
     <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
 </LinearLayout>
