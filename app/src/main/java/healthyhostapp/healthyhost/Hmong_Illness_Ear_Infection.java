@@ -12,5 +12,6 @@ public class Hmong_Illness_Ear_Infection extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_illness_ear_infection);
+
     }
 }
