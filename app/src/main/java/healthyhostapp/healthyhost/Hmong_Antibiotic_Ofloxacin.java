@@ -12,5 +12,6 @@ public class Hmong_Antibiotic_Ofloxacin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_ofloxacin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_ofloxacin);
     }
 }

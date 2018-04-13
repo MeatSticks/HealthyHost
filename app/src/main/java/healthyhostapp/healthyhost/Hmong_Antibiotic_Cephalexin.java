@@ -13,6 +13,7 @@ public class Hmong_Antibiotic_Cephalexin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_cephalexin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw. hmong_cephalexcin);
     }
 }
 

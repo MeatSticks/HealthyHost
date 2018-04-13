@@ -12,6 +12,5 @@ public class Hmong_Antibiotic_Improper extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_improper);
-
     }
 }

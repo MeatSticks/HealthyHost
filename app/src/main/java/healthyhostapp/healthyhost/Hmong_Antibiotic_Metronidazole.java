@@ -12,5 +12,6 @@ public class Hmong_Antibiotic_Metronidazole extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_metronidazole);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_metronidazole);
     }
 }
