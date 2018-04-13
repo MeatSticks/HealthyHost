@@ -13,6 +13,5 @@ public class spanlyme extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanlyme);
-        AudioPlayer.CreateAudioPlayer(this,R.raw.moonlight);
     }
 }
