@@ -27,7 +27,7 @@
         android:layout_weight="0.20"
         android:alpha="0.80"
         android:background="#FF9898"
-        android:text="Improper Usage"
+        android:text="Yog thaum koj siv tsis haum"
         android:textColor="@android:color/black"
         android:textSize="40sp"
         android:textStyle="bold" />
@@ -40,7 +40,7 @@
         android:layout_weight="0.20"
         android:alpha="0.80"
         android:background="#7FBF7F"
-        android:text="Proper Usage"
+        android:text="Yuav siv li cas "
         android:textColor="@android:color/black"
         android:textSize="40sp"
         android:textStyle="bold" />
