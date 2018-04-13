@@ -12,4 +12,6 @@ public class Hmong_Illness_Valleyfever extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.hmong_illness_valleyfever);
+    }
 }

@@ -13,7 +13,7 @@
         android:background="#FFFFFF"
         android:color="#66FF0000"
         android:paddingTop="30dp"
-        android:text="This page is meant for you to learn how to take care of your medicines. Select one of the two following options to learn more about drug care."
+        android:text="Esta página contiene recomendaciones acerca del manejo apropiado de sus antibióticos. Seleccione una de las siguintes dos opciones para aprender más sobre el cuidado de sus antibióticos."
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30sp"

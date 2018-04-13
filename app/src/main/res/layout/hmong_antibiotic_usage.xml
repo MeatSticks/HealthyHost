@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+        
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
     <Button
         android:id="@+id/improper"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="38dp"
         android:layout_marginTop="10dp"
         android:layout_weight="0.20"
         android:alpha="0.80"
@@ -35,7 +35,7 @@
     <Button
         android:id="@+id/proper"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="43dp"
         android:layout_marginTop="10dp"
         android:layout_weight="0.20"
         android:alpha="0.80"
@@ -44,11 +44,4 @@
         android:textColor="@android:color/black"
         android:textSize="40sp"
         android:textStyle="bold" />
-
-    <include
-        layout="@layout/healthyhostlogo"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="10dp"
-        android:layout_weight=".2" />
 </LinearLayout>

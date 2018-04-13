@@ -12,6 +12,6 @@ public class Hmong_Antibiotic_Flucloxacillin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_antibiotic_flucloxacillin);
-        AudioPlayer.CreateAudioPlayer(this,R.raw.hmong_flucloxacillin);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.hmong_flucloxacillin);
     }
 }
