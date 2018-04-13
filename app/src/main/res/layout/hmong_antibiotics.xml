@@ -25,32 +25,32 @@
 
             <!-- everything you already have -->
             <TextView
-                android:paddingTop="30dp"
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="Please click on the antibiotic you would like to learn more about"
-                android:textSize="30sp"
+                android:layout_marginBottom="12dp"
+                android:alpha="0.80"
                 android:background="#ffffff"
+                android:color="#66FF0000"
+                android:paddingTop="30dp"
+                android:text="Thov nias mus rau hom tshuaj uas koj xav paub ntau tshaj no txog"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:id="@+id/textView1"
-                android:color="#66FF0000"
-                android:alpha="0.80"
-                android:textStyle="bold"
-                android:layout_marginBottom="12dp"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <Button
-                android:layout_marginTop="10dp"
+                android:id="@+id/Antibiotic_Usage"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Hmong Antibiotic Usage"
+                android:layout_marginTop="10dp"
                 android:layout_weight="0.20"
-                android:id="@+id/Antibiotic_Usage"
-                android:color="#66FF0000"
                 android:alpha="0.80"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+                android:color="#66FF0000"
+                android:text="siv tshuaj tua kab mob"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_marginTop="10dp"
