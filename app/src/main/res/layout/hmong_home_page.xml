@@ -91,18 +91,18 @@
             android:text="Nyob rau qhov twg"
             android:textSize="20sp"
             android:textStyle="bold" />
-      
+
         <Button
-            android:layout_marginTop="10dp"
+            android:id="@+id/buttontitleVI"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Title VI"
+            android:layout_marginTop="10dp"
             android:layout_weight="0.20"
-            android:id="@+id/buttontitleVI"
-            android:color="#66FF0000"
             android:alpha="0.80"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:color="#66FF0000"
+            android:text="Title VI (Nqi 6)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
         <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
