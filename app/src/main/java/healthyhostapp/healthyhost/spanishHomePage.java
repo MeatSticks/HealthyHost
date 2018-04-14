@@ -31,6 +31,9 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
         Button adjustes = (Button) findViewById(R.id.adjustes);
         adjustes.setOnClickListener(this);
 
+        Button buttontitleVI = (Button) findViewById(R.id.buttontitleVI);
+        buttontitleVI.setOnClickListener(this);
+
         LanguageBtns.CreateLanguageBtns();
     }
     public void onClick(View v) {
@@ -54,6 +57,11 @@ public class spanishHomePage extends AppCompatActivity implements View.OnClickLi
             case R.id.adjustes: //this case actually represents what will be the settings page, no longer the language
                 Intent intent6 = new Intent(spanishHomePage.this, Spanish_Settings.class);
                 startActivity(intent6);
+                break;
+
+            case R.id.buttontitleVI: //this case actually represents what will be the settings page, no longer the language
+                Intent intenttitlevi = new Intent(spanishHomePage.this, title6spanish_page.class);
+                startActivity(intenttitlevi);
                 break;
         }
     }
