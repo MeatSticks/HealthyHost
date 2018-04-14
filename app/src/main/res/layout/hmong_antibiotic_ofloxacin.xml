@@ -54,11 +54,10 @@
                 /><!--Additional Information-->
 
             <TextView
+                android:text="http://apps.who.int/medicinedocs/en/d/Jh2988e/14.4.html#Jh2988e.14.4"
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="http://www.emedicinehealth.com/drug-ofloxacin/article_em.htm#whatis"
                 android:autoLink="web"
-
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                /> 
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

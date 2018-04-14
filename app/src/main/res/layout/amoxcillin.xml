@@ -54,8 +54,8 @@
 
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="http://www.drugs.com/alpha/a1.html"
                 android:autoLink="web"
+                android:text="http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1 "
 
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
 
