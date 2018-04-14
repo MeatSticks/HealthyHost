@@ -58,10 +58,9 @@
                 /><!--Additional Information - DO NOT CHANGE-->
 
             <TextView
-               style="@style/IllnessesPage.Body"
+                style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.cdc.gov/lyme/toolkit/index.html" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
 
             <include
                 layout="@layout/healthyhostlogo"

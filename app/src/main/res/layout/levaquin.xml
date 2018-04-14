@@ -55,8 +55,8 @@
 
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="http://www.drugs.com/alpha/a1.html"
                 android:autoLink="web"
+                android:text="https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/detail"
 
                 /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />

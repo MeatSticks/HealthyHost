@@ -11,5 +11,6 @@ public class spanherpes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanherpes);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.spanish_herpes);
     }
 }

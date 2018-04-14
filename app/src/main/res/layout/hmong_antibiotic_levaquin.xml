@@ -21,80 +21,39 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Levaquin"
                 android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="40dp"
-                android:textStyle="bold"
+
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Description"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Description Title Header-->
+
+                /><!--Description Title Header-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Tshuaj siv lugku kaab mob (bacterial infection) nyob ntawm tawv nqaj, zaigzig, tsaum, hab lub tau kua xoo  (prostate), nwg kuj lug ntaus kaab mob xws le mob ntsws muaj dlej (pneumonia) hab mob ntsws (bronchitis)."
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /><!--Description of the page in question-->
+                /><!--Description of the page in question-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Uses"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Symptoms-->
+                /><!--Symptoms-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Yuav mob heev, tej qhi txhaa txhaav, ndloog, xaab, hab teeb meem thau yug mus ke (txaav los sis ua zug)"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /><!--Symptoms of the page in question-->
+                /><!--Symptoms of the page in question-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Additional Information"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:textStyle="bold" /><!--Additional Information-->
+                /><!--Additional Information-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                android:text="http://www.drugs.com/alpha/a1.html"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.webmd.com/drugs/2/drug-14492-8235/levaquin-oral/levofloxacin-oral/details"
+                /> 
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

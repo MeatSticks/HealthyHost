@@ -55,9 +55,8 @@
 
             <TextView
                 style="@style/AntibioticsPage.TextViews.Text"
-                android:text="http://www.drugs.com/alpha/a1.html"
                 android:autoLink="web"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="http://apps.who.int/medicinedocs/en/d/Js2215e/9.4.html#Js2215e.9.4" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

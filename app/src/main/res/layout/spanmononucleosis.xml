@@ -51,9 +51,8 @@
 
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.mayoclinic.org/diseases-conditions/mononucleosis/symptoms-causes/syc-20350328" />
 
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>

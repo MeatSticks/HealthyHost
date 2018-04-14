@@ -42,86 +42,43 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Doxiciclina"
                 android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Descripción"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description Title Header-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Esta trata la bacteria que causa acné, infecciones intestinales, infecciones de los ojos, infecciones de las vías urinarias y baches/chichones."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description of the page in question-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Usar"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Tos, diarrea, orina oscura, dolor muscular/coyunturas, dolores de cabeza y mareos."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms of the page in question-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Información adicional"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Additional Information-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="http://www.drugs.com/alpha/a1.html"
+                android:text="http://apps.who.int/medicinedocs/en/d/Jh2922e/2.5.8.html"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
