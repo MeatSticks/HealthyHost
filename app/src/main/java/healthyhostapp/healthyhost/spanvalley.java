@@ -11,5 +11,6 @@ public class spanvalley extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanvalley);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.spanish_valleyfever);
     }
 }

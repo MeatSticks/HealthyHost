@@ -12,5 +12,6 @@ public class spanmastitis extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanmastitis);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.spanish__mastitis);
     }
 }
