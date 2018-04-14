@@ -26,7 +26,7 @@ public class spandoxy extends AppCompatActivity {
         reset.setOnClickListener(btnClick);
 
         // load the audio in /raw folder called moonlight
-        mediaPlayer = MediaPlayer.create(this, R.raw.moonlight);
+        mediaPlayer = MediaPlayer.create(this, R.raw.spanish_anti_doxycycline);
         // loop the audio to play when it ends
         mediaPlayer.setLooping(true);
     }
