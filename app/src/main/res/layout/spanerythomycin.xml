@@ -42,85 +42,43 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Eritromicina"
                 android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Descripción"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description Title Header-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Este antibiótico se utiliza para retardar el crecimiento de bacteria o para completamente exterminar la bacteria sensitiva."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description of the page in question-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Usar"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Fiebre, sarpullido en la piel, dolor estomacal severo y vómitos."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms of the page in question-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Información adicional"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Additional Information-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="http://apps.who.int/medicinedocs/en/d/Jh2918e/23.4.html#Jh2918e.23.4"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                style="@style/AntibioticsPage.TextViews.Text"
+                android:autoLink="web"
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

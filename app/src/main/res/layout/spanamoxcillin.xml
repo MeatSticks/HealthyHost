@@ -42,85 +42,42 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Amoxicilina"
                 android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Descripción"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description Title Header-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Utilizada para el tratamiento de infecciones bacterianas localizadas en los oídos, nariz, piel, y vías urinarias. Combate infecciones tales como la bronquitis, neumonía, tonsilitis y gonorrea."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description of the page in question-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Usar"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Dolor de estómago, piernas y pecho, diarrea, llagas en la boca o piel, síntomas de resfriados y dificultad para respirar. "
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms of the page in question-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Información adicional"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Additional Information-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="http://apps.who.int/medicinedocs/en/d/Js5406e/16.1.html#Js5406e.16.1"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                style="@style/AntibioticsPage.TextViews.Text"
+                android:autoLink="web"
+                /> 
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

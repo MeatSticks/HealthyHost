@@ -21,86 +21,45 @@
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Title"
                 android:text="Cephalexin"
                 android:textAlignment="center"
-                android:textSize="40dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /> <!--This is where the name of the page goes-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Description"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description Title Header-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Yaam tshuaj siv lug khu, bacterial infection, kaab mob pob ntseg, mob hlaab sab ntsws hlaab ua paa, respiratory system, nqaj tawv, hab hlaab zig.
 "
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Description of the page in question-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Uses"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms-->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Text"
                 android:text="Yaam tsi zoo (teeb meem): Thoj plaab, mob plaab, ib ce no ntxiag hab ua npaws."
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Symptoms of the page in question-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/AntibioticsPage.TextViews.Header"
                 android:text="Additional Information"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="30dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
+
                 /><!--Additional Information-->
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:autoLink="web"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
                 android:text="https://medlineplus.gov/druginfo/meds/a682733.html"
-                android:textColor="#000000"
-                android:textSize="20dp"
-                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                style="@style/AntibioticsPage.TextViews.Text"
+                android:autoLink="web"
+
+                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
