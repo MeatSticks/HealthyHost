@@ -53,9 +53,8 @@
 
             <TextView
                 style="@style/IllnessesPage.Body"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
                 android:autoLink="web"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-2035309" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
