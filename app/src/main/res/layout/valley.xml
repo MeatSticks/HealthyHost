@@ -58,8 +58,7 @@
             <TextView
                 style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:text="https://www.cdc.gov/groupAstrep/index.html"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="http://apps.who.int/medicinedocs/en/d/Js2215e/3.3.html#Js2215e.3.3" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
