@@ -78,7 +78,7 @@
                 android:text="https://medlineplus.gov/druginfo/meds/a682733.html"
                 style="@style/AntibioticsPage.TextViews.Text"
                 android:autoLink="web"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

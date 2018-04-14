@@ -51,7 +51,7 @@
             <TextView
                 style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:text="https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.mayoclinic.org/diseases-conditions/respiratory-syncytial-virus/symptoms-causes/syc-20353098" />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

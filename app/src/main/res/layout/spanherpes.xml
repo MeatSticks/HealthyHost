@@ -52,7 +52,7 @@
             <TextView
                 style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:text="https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.cdc.gov/std/herpes/stdfact-herpes-detailed.htm" />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

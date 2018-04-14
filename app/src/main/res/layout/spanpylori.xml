@@ -51,7 +51,7 @@
             <TextView
                 style="@style/IllnessesPage.Body"
                 android:autoLink="web"
-                android:text="https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171" />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

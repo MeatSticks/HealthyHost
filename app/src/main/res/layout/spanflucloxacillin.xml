@@ -84,7 +84,7 @@
                 android:text="https://drugs.webmd.boots.com/drugs/drug-200-Flucloxacillin.aspx"
                 style="@style/AntibioticsPage.TextViews.Text"
                 android:autoLink="web"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>

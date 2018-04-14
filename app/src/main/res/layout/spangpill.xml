@@ -85,7 +85,7 @@
                 android:text="http://www.drugs.com/alpha/a1.html"
                 android:autoLink="web"
 
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                />
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
