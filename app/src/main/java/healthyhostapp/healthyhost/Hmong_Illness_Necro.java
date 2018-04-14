@@ -9,5 +9,6 @@ public class Hmong_Illness_Necro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hmong_illness_necro);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.moonlight);
     }
 }

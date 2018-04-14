@@ -11,5 +11,6 @@ public class spanimpetigo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanimpetigo);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.spanish_impetigo);
     }
 }

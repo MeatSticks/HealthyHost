@@ -12,5 +12,6 @@ public class spanuti extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spanuti);
+        AudioPlayer.CreateAudioPlayer(this, R.raw.spanish_uti);
     }
 }
