@@ -19,6 +19,4 @@ public class spancephalexin extends AppCompatActivity {
         setContentView(R.layout.spancephalexin);
         AudioPlayer.CreateAudioPlayer(this, R.raw.spanish_anti_cephalexin);
     }
-
-
 }
