@@ -93,15 +93,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="http://www.drugs.com/alpha/a1.html"
                 android:autoLink="web"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:textSize="20dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
-                /> <!--INSERT LINK IN THE "android:text="" FIELD-->
+                android:text="https://medlineplus.gov/druginfo/meds/a682733.html"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" /> <!--INSERT LINK IN THE "android:text="" FIELD-->
             <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/healthyhostlogo" />
         </LinearLayout>
     </ScrollView>
