@@ -12,7 +12,6 @@ public class gpill extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gpill);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antiobio10);
 
     }
 }

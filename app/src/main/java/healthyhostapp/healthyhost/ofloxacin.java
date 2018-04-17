@@ -12,7 +12,5 @@ public class ofloxacin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ofloxacin);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antiobio11);
-
     }
 }
