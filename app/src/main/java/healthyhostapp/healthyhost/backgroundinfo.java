@@ -12,7 +12,6 @@ public class backgroundinfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.backgroundinfo);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_background_info);
 
     }
 }
