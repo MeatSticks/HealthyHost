@@ -12,7 +12,6 @@ public class dont extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dont);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_donts_complete);
 
     }
 }
