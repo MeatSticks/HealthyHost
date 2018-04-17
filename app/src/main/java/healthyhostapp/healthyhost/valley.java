@@ -19,7 +19,6 @@ public class valley extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.valley);
 
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_bactirial_infection_in_the_centtral_valley);
 
     }
 

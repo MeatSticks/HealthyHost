@@ -18,7 +18,6 @@ public class lyme extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lyme);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_lyme_disease);
 
 
     }

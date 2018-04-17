@@ -18,7 +18,6 @@ public class impetigo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.impetigo);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_impetigo);
 
 
     }

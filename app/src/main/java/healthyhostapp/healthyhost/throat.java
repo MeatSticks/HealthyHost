@@ -18,7 +18,6 @@ public class throat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.throat);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_strep_throat);
 
     }
 
