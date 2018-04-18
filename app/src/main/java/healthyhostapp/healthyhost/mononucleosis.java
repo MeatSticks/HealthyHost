@@ -19,7 +19,6 @@ public class mononucleosis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mononucleosis);
 
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_mononucleosis);
 
     }
 }

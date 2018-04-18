@@ -17,7 +17,6 @@ public class ear extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ear);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_ear_infection);
     }
 }
 

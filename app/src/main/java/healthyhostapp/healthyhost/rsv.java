@@ -18,7 +18,6 @@ public class rsv extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rsv);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_rsv);
 
     }
 }

@@ -19,7 +19,6 @@ public class uti extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uti);
 
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_urinary_tract_infectiom);
     }
     }
 

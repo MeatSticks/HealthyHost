@@ -18,7 +18,6 @@ public class pylori extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pylori);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_hpylori);
 
     };
 }
