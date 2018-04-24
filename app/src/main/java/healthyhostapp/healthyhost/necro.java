@@ -18,7 +18,6 @@ public class necro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.necro);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_necrotizingfasciitis);
 
     }
 }
