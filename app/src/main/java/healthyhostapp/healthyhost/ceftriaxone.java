@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class ceftriaxone extends AppCompatActivity {
-    private int RECORDING = R.raw.winters_cold;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
