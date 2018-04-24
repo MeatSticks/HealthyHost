@@ -8,13 +8,6 @@
         android:layout_height="match_parent"
         android:stretchColumns="1">
 
-        <fragment android:name="healthyhostapp.healthyhost.AudioPlayer"
-            android:id="@+id/audioPlayer"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-
         <TextView
             android:text="DO ask your doctor whether your or your family member's infection will respond to antibiotics.  (If necessary, ask if a lab test is indicated to verify the type of infection.)"
             android:layout_width="match_parent"

@@ -12,7 +12,6 @@ public class dos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dos);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_dos_complete);
 
     }
 }

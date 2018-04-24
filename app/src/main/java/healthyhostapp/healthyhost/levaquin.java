@@ -12,7 +12,6 @@ public class levaquin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.levaquin);
-        AudioPlayer.CreateAudioPlayer(this, R.raw.english_antibio1);
 
     }
 }
